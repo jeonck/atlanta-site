@@ -1,0 +1,337 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>애틀랜타 소식 — 애틀랜타 정착·생활 가이드</title>
+<meta name="description" content="애틀랜타 지역 뉴스와 시청·학군 공지 모음. 매일 새벽 자동으로 갱신됩니다.">
+<link rel="canonical" href="https://atlanta.metacog.co.kr/news/">
+<meta property="og:site_name" content="애틀랜타 정착·생활 가이드">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:type" content="website">
+<meta property="og:title" content="애틀랜타 소식 — 애틀랜타 정착·생활 가이드">
+<meta property="og:description" content="애틀랜타 지역 뉴스와 시청·학군 공지 모음. 매일 새벽 자동으로 갱신됩니다.">
+<meta property="og:url" content="https://atlanta.metacog.co.kr/news/">
+<meta property="og:image" content="https://atlanta.metacog.co.kr/assets/img/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="애틀랜타 정착·생활 가이드">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/assets/img/favicon.svg?v=7cae0141" type="image/svg+xml">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png?v=7cae0141">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16.png?v=7cae0141">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.png?v=7cae0141">
+<link rel="manifest" href="/assets/img/site.webmanifest">
+<meta name="theme-color" content="#b8461f">
+<link rel="preconnect" href="https://cdn.jsdelivr.net">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+<link rel="stylesheet" href="/assets/css/site.css">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-0F0ZDYP19E"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-0F0ZDYP19E', { 'allow_google_signals': false });
+</script>
+<script>
+// 첫 페인트 전에 테마를 확정해 깜빡임을 없앤다.
+(function () {
+  try {
+    var t = localStorage.getItem('theme');
+    if (t === 'dark' || t === 'light') document.documentElement.dataset.theme = t;
+  } catch (e) {}
+})();
+</script>
+</head>
+<body>
+<a class="skip" href="#main">본문으로 건너뛰기</a>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="/">
+      <img class="brand-mark" src="/assets/img/logo.svg" alt="ATL" width="34" height="34">
+      <span class="brand-text">애틀랜타 정착·생활 가이드</span>
+    </a>
+    <nav class="nav" aria-label="주요 메뉴">
+      <a href="/essentials/">필수</a>
+      <a href="/housing/">주거</a>
+      <a href="/education/">교육</a>
+      <a href="/health-tax/">의료·세금</a>
+      <a href="/life/">생활</a>
+      <a href="/daily/">여가</a>
+      <a href="/business/">사업</a>
+      <a href="/wisdom/">지혜</a>
+      <a href="/checklist/">체크리스트</a>
+      <a href="/deadlines/">기한</a>
+      <a href="/events/">이벤트</a>
+    </nav>
+    <div class="header-tools">
+      <a class="icon-btn" href="/search/" aria-label="검색">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+      </a>
+      <button class="icon-btn" id="theme-toggle" type="button" aria-label="밝은/어두운 화면 전환">
+        <svg viewBox="0 0 24 24" aria-hidden="true" class="i-sun"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M19.1 4.9l-1.4 1.4M6.3 17.7l-1.4 1.4"/></svg>
+        <svg viewBox="0 0 24 24" aria-hidden="true" class="i-moon"><path d="M20 13.5A8 8 0 0 1 10.5 4a8.5 8.5 0 1 0 9.5 9.5z"/></svg>
+      </button>
+      <button class="icon-btn menu-btn" id="menu-toggle" type="button" aria-label="메뉴" aria-expanded="false">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+      </button>
+    </div>
+  </div>
+  <nav class="mobile-nav" id="mobile-nav" hidden aria-label="모바일 메뉴">
+    <a href="/essentials/"><span>🛬</span>도착 직후 필수</a>
+    <a href="/housing/"><span>🏡</span>주거와 동네</a>
+    <a href="/education/"><span>🎒</span>교육과 가족</a>
+    <a href="/health-tax/"><span>🏥</span>의료·보험·세금</a>
+    <a href="/life/"><span>🌮</span>생활과 커뮤니티</a>
+    <a href="/daily/"><span>🎟️</span>일상과 여가</a>
+    <a href="/business/"><span>🏪</span>사업과 창업</a>
+    <a href="/wisdom/"><span>🧭</span>먼저 겪은 사람의 지혜</a>
+    <a href="/checklist/"><span>✅</span>90일 체크리스트</a>
+    <a href="/deadlines/"><span>⏳</span>놓치면 안 되는 기한</a>
+    <a href="/prices/"><span>🧾</span>장바구니 가격 비교</a>
+        <a href="/hmart/"><span>🛒</span>H Mart 주간 세일</a>
+    <a href="/events/"><span>📅</span>이벤트</a>
+    <a href="/news/"><span>📰</span>소식</a>
+    <a href="/search/"><span>🔍</span>검색</a>
+  </nav>
+</header>
+
+<main id="main">
+<div class="wrap page-head">
+  <nav class="crumbs" aria-label="위치"><a href="/">홈</a> <span>/</span> 소식</nav>
+  <h1>애틀랜타 소식</h1>
+  <p class="lede">지역 언론과 시청·학군 공지를 매일 새벽 모읍니다. 제목을 누르면 원문으로 갑니다.</p>
+<p class="muted small">마지막 수집 2026-09-26 09:45 EDT</p>  <p class="archive-months"><strong>지난 소식</strong>
+<a href="/news/2026/09/">2026년 9월</a><a href="/news/2026/08/">2026년 8월</a>  </p>
+</div>
+<div class="wrap section">
+  <ul class="news-list">
+    <li>
+<a href="https://www.fox5atlanta.com/news/things-do-weekend-metro-atlanta-north-georgia-sept-25-27-2026" rel="noopener nofollow">애틀랜타 광역권·노스조지아(North Georgia) 주말 즐길거리 | 2026년 9월 25~27일</a><p class="muted">이번 주말 애틀랜타 광역권과 노스조지아 지역에서 열리는 축제, 라이브 공연, 연극 등 가을철 행사 목록을 소개한다.</p>      <p class="news-meta"><span class="src">FOX 5 Atlanta 지역 뉴스</span>
+<span>9월 26일</span></p>
+    </li>
+    <li>
+<a href="https://www.11alive.com/article/news/crime/swat-called-after-unauthorized-family-member-enters-rockdale-county-home-sheriff-says/85-afe3440f-a259-4be9-864c-633afe80d110" rel="noopener nofollow">록데일 카운티(Rockdale County) 주택에 무단 침입한 가족 구성원으로 SWAT 출동</a><p class="muted">보안관 측에 따르면 무기를 소지한 사람이 SWAT 대응 끝에 발견되어 병원으로 이송되었고, 퇴원 후 기소될 예정이다.</p>      <p class="news-meta"><span class="src">11Alive (WXIA) 지역 뉴스</span>
+<span>9월 26일</span></p>
+    </li>
+    <li>
+<a href="https://www.11alive.com/article/news/crime/15-year-old-shot-killed-in-southeast-atlanta-police-say/85-467b0776-258b-4487-ac67-0a87d10828d1" rel="noopener nofollow">애틀랜타 남동부에서 15세 청소년 총격으로 사망</a><p class="muted">애틀랜타 경찰은 이번 총격 사건이 서로 아는 사람들 사이에 벌어진 단독 사건으로 보고 있으며 수사가 계속되고 있다.</p>      <p class="news-meta"><span class="src">11Alive (WXIA) 지역 뉴스</span>
+<span>9월 26일</span></p>
+    </li>
+    <li>
+<a href="https://www.fox5atlanta.com/news/southeast-atlanta-family-displaced-after-tree-damages-roof-during-storm" rel="noopener nofollow">애틀랜타 남동부, 폭풍우로 나무가 지붕 덮쳐 한 가족 이재민 발생</a><p class="muted">토요일 밤 폭풍우 중 대형 나뭇가지가 애틀랜타 남동부 주택으로 쓰러져 지붕이 파손되면서 한 가족이 복구 방법을 찾고 있다.</p>      <p class="news-meta"><span class="src">FOX 5 Atlanta 지역 뉴스</span>
+<span>9월 26일</span></p>
+    </li>
+    <li>
+<a href="https://www.11alive.com/article/news/crime/cobb-county-deputy-attacked-murder-suspect-adult-detention-center/85-15b978ee-68f1-46aa-8cfb-8f99cc7ac806" rel="noopener nofollow">코브 카운티(Cobb County) 보안관보, 구치소에서 살인 혐의자에게 공격당해 치료 중</a><p class="muted">신원이 공개되지 않은 보안관보가 구치소에서 공격을 당해 턱 골절과 뇌진탕으로 병원 치료를 받고 있다.</p>      <p class="news-meta"><span class="src">11Alive (WXIA) 지역 뉴스</span>
+<span>9월 26일</span></p>
+    </li>
+    <li>
+<a href="https://www.fox5atlanta.com/news/man-shot-mlk-jr-drive-southwest-atlanta-police-say" rel="noopener nofollow">애틀랜타 남서부에서 강도 시도 중 총격, 1명 부상</a><p class="muted">금요일 저녁 할런드 테라스(Harland Terrace) 지역에서 강도 시도가 총격전으로 번져 남성 1명이 병원으로 이송됐다고 경찰이 밝혔다.</p>      <p class="news-meta"><span class="src">FOX 5 Atlanta 지역 뉴스</span>
+<span>9월 26일</span></p>
+    </li>
+    <li>
+<a href="https://www.11alive.com/article/news/community/transportation/marta-rethinks-ridership-fare-gate-installation/85-257013bc-7c62-407d-b72b-0e873e5c71cc" rel="noopener nofollow">MARTA, 개찰구 설치 마무리 단계에서 승차 인원 집계 방식 재검토</a><p class="muted">정확한 승차 인원 데이터는 연방 예산 지원, 수익 추정, 서비스 조정에 영향을 주는 핵심 지표라 MARTA가 집계 방식을 다시 살펴보고 있다.</p>      <p class="news-meta"><span class="src">11Alive (WXIA) 지역 뉴스</span>
+<span>9월 26일</span></p>
+    </li>
+    <li>
+<a href="https://www.fox5atlanta.com/news/pest-infestation-reported-dunwoody-apartment-complex-due-trash" rel="noopener nofollow">던우디(Dunwoody) 아파트 단지, 쓰레기 방치로 해충 발생 신고</a><p class="muted">던우디의 한 아파트 단지 주민들은 복도에 쌓인 쓰레기가 악취와 해충을 유발하고 있다고 밝혔다.</p>      <p class="news-meta"><span class="src">FOX 5 Atlanta 지역 뉴스</span>
+<span>9월 25일</span></p>
+    </li>
+    <li>
+<a href="https://www.fox5atlanta.com/news/east-point-police-search-15-year-old-runaway" rel="noopener nofollow">East Point 경찰, 실종된 15세 청소년 수색</a><p class="muted">East Point 경찰이 실종된 15세 소녀 Serenity Lynn Williams를 찾는 데 시민들의 협조를 요청했다.</p>      <p class="news-meta"><span class="src">FOX 5 Atlanta 지역 뉴스</span>
+<span>9월 25일</span></p>
+    </li>
+    <li>
+<a href="https://www.atlantajoongang.com/143974" rel="noopener nofollow">[한인타운 100자 게시판] 신라명과 단팥빵 9.99달러, 한인경찰 컨퍼런스 외</a><p class="muted">미동남부월남참전유공자회가 26일 토요일 오전 11시 둘루스 서라벌 식당에서 3분기 정기모임을 갖는 등 한인타운 소식을 모은 게시판이다.</p>      <p class="news-meta"><span class="src">애틀랜타 중앙일보</span>
+<span>9월 25일</span></p>
+    </li>
+    <li>
+<a href="https://www.atlantajoongang.com/143971" rel="noopener nofollow">&#34;며칠 안에 판다 두 마리 애틀랜타 도착&#34;</a><p class="muted">시진핑 중국 국가주석이 수컷 핑핑과 암컷 푸솽 두 자이언트 판다가 며칠 안에 애틀랜타 동물원(Atlanta Zoo)에 도착할 것이라고 밝혔다.</p>      <p class="news-meta"><span class="src">애틀랜타 중앙일보</span>
+<span>9월 25일</span></p>
+    </li>
+    <li>
+<a href="https://www.atlantajoongang.com/143966" rel="noopener nofollow">애틀랜타 성매매 피해자에 1억6400만 달러 배상 평결</a><p class="muted">애틀랜타 연방법원 배심원단이 미성년자 시절 칼리지 파크의 한 호텔에서 성매매 피해를 당한 여성에게 호텔을 소유·운영했던 링컨 뱅코프 LLC가 1억6400만 달러를 배상하라는 평결을 내렸다.</p>      <p class="news-meta"><span class="src">애틀랜타 중앙일보</span>
+<span>9월 25일</span></p>
+    </li>
+    <li>
+<a href="https://www.11alive.com/article/news/local/gbi-investigating-death-adairsville-interstate-75/85-38c2619d-7f3f-4004-b1d0-c243d382de61" rel="noopener nofollow">조지아 순찰대 검문 중 남성 총격 자살, GBI 조사</a><p class="muted">조지아 주 순찰대가 사우스캐롤라이나에서 지명수배 중이던 40세 남성 니컬러스 마리노의 차량을 검문하는 과정에서 그가 스스로 목숨을 끊었으며, 조지아수사국(GBI)이 경위를 조사하고 있다.</p>      <p class="news-meta"><span class="src">11Alive (WXIA) 지역 뉴스</span>
+<span>9월 25일</span></p>
+    </li>
+    <li>
+<a href="https://atlantak.com/%ec%95%84%ec%94%a8%eb%a7%88%ec%bc%93-%ec%b6%94%ec%84%9d%eb%a7%9e%ec%9d%b4-%eb%b9%85-%ec%bf%a0%ed%8f%b0-%ec%9c%84%ed%81%ac-2%ec%a3%bc%ec%b0%a8-%eb%8f%8c%ec%9e%85/" rel="noopener nofollow">아씨마켓(Assi Market), 추석맞이 &#39;빅 쿠폰 위크&#39; 2주차 돌입</a><p class="muted">아씨마켓이 추석을 앞두고 &#39;가을 빅 쿠폰 위크&#39; 2주차에 들어가 50달러 이상 구매 시 결제액의 10%에 해당하는 쿠폰을 증정한다.</p>      <p class="news-meta"><span class="src">코리아타임즈 애틀랜타</span>
+<span>9월 25일</span></p>
+    </li>
+    <li>
+<a href="https://atlantak.com/%ec%95%84%ec%94%a8%eb%a7%88%ec%bc%93-%ed%95%9c%ec%9d%b8-%ec%8b%9d%ed%92%88%ec%a0%90-%ec%84%b8%ec%9d%bc-%ec%a0%95%eb%b3%b4-65/" rel="noopener nofollow">[아씨마켓] 한인 식품점 세일 정보</a><p class="muted">아씨마켓 조지아 지점의 9월 25일부터 10월 1일까지 세일 전단 정보를 정리했다.</p>      <p class="news-meta"><span class="src">코리아타임즈 애틀랜타</span>
+<span>9월 25일</span></p>
+    </li>
+    <li>
+<a href="https://atlantak.com/%eb%a9%94%ea%b0%80%eb%a7%88%ed%8a%b8-%ed%95%9c%ec%9d%b8-%ec%8b%9d%ed%92%88%ec%a0%90-%ec%84%b8%ec%9d%bc-%ec%a0%95%eb%b3%b4-15/" rel="noopener nofollow">[메가마트] 한인 식품점 세일 정보</a><p class="muted">둘루스 메가마트의 9월 25일부터 10월 1일까지 세일 정보를 소개한다.</p>      <p class="news-meta"><span class="src">코리아타임즈 애틀랜타</span>
+<span>9월 25일</span></p>
+    </li>
+    <li>
+<a href="https://www.atlantamagazine.com/dining-news/chimney-cakes-have-landed-in-georgia/" rel="noopener nofollow">조지아에 등장한 치즈나 케이크, &#39;킬투르쉬칼라치(chimney cake)&#39;</a><p class="muted">피치트리 코너스(Peachtree Corners)의 Lumier&#39;s에서 헝가리 전통 디저트인 킬투르쉬칼라치(chimney cake, kürtőskalács)를 판매하고 있다.</p>      <p class="news-meta"><span class="src">Atlanta Magazine</span>
+<span>9월 24일</span></p>
+    </li>
+    <li>
+<a href="https://johnscreekga.gov/news/2026/09/johns-creek-holds-millage-rate-hearings-for-2026-2/" rel="noopener nofollow">존스크릭(Johns Creek)시, 2026년 재산세율(Millage Rate) 청문회 개최</a><p class="muted">존스크릭시가 2026년 재산세를 롤백 세율 대비 1.70% 인상할 계획을 밝히며 관련 청문회 개최를 공지했다.</p>      <p class="news-meta"><span class="src">존스크릭 시 소식</span>
+<span>9월 23일</span></p>
+    </li>
+    <li>
+<a href="https://johnscreekga.gov/news/2026/09/city-council-approves-fy2027-budget/" rel="noopener nofollow">존스크릭(Johns Creek)시 의회, 2027 회계연도 예산 승인</a><p class="muted">존스크릭시 의회가 9월 14일 회의에서 8,320만 달러 규모의 2027 회계연도 예산을 승인했다.</p>      <p class="news-meta"><span class="src">존스크릭 시 소식</span>
+<span>9월 22일</span></p>
+    </li>
+    <li>
+<a href="https://www.atlantajoongang.com/?kboard_content_redirect=1719" rel="noopener nofollow">소공인 우수 제품을 &#39;코리안 페스티벌(Korean Festival)&#39;에서 만나보세요</a><p class="muted">소상공인들의 우수한 제품을 코리안 페스티벌에서 선보인다는 안내.</p>      <p class="news-meta"><span class="src">애틀랜타 중앙일보 알림판</span>
+<span>9월 18일</span></p>
+    </li>
+    <li>
+<a href="https://dds.georgia.gov/press-releases/2026-09-17/georgia-department-driver-services-dds-successfully-onboards-800000" rel="noopener nofollow">조지아 운전면허국(DDS), 디지털 운전면허증·신분증 이용자 80만 명 돌파</a><p class="muted">조지아 운전면허국(DDS)의 디지털 운전면허증·신분증 애플리케이션 이용자 수가 80만 명을 넘어섰다는 발표.</p>      <p class="news-meta"><span class="src">조지아 DDS (면허) 공지</span>
+<span>9월 17일</span></p>
+    </li>
+    <li>
+<a href="https://georgiarecorder.com/2026/09/26/repub/cdcs-latest-youth-behavior-report-offers-a-narrower-look-at-teen-health/" rel="noopener nofollow">CDC의 최신 청소년 행동 보고서, 더 좁아진 범위로 10대 건강 실태 조사</a><p class="muted">미국 질병통제예방센터(CDC)가 1991년부터 2년마다 실시해 온 청소년 위험행동 조사(Youth Risk Behavior Survey)의 최신 결과를 다룬 기사다.</p>      <p class="news-meta"><span class="src">Georgia Recorder</span>
+<span>9월 26일</span></p>
+    </li>
+    <li>
+<a href="https://www.fox5atlanta.com/news/youth-soccer-team-loses-east-point-field-after-six-year-partnership" rel="noopener nofollow">유소년 축구팀, 6년간 이용해 온 이스트포인트(East Point) 구장 잃어</a><p class="muted">오즈 피자(Oz Pizza)와 사커 인 더 스트리츠(Soccer in the Streets)가 이스트포인트 구장 사용을 둘러싸고 5년 넘게 이어온 협력 관계에서 이견을 좁히지 못했다.</p>      <p class="news-meta"><span class="src">FOX 5 Atlanta 지역 뉴스</span>
+<span>9월 25일</span></p>
+    </li>
+    <li>
+<a href="https://www.atlantajoongang.com/143981" rel="noopener nofollow">&#34;이승만·맥아더 동상 제막, 예정대로 진행&#34;</a><p class="muted">애틀랜타 한인회관 앞 이승만·맥아더 동상 제막식을 둘러싸고 한인사회 일각의 반대가 있었지만, 준비위원회는 다음달 1일 예정대로 제막식을 열 것이라고 밝혔다.</p>      <p class="news-meta"><span class="src">애틀랜타 중앙일보</span>
+<span>9월 25일</span></p>
+    </li>
+    <li>
+<a href="https://www.11alive.com/article/news/nation-world/oregon-flags-half-staff-fallen-firefighter/283-3edcfc17-1d7a-4032-b371-62a9b7187f09" rel="noopener nofollow">오리건주, 오스틴 화재 진압 중 순직한 소방관 추모해 조기 게양</a><p class="muted">오리건 주지사 티나 코텍이 오스틴 화재를 진압하다 9월 9일 순직한 소방관 헤수스 에두아르도 올림포 구티에레스 토랄을 기리기 위해 화요일 조기 게양을 명령했다.</p>      <p class="news-meta"><span class="src">11Alive (WXIA) 지역 뉴스</span>
+<span>9월 25일</span></p>
+    </li>
+    <li>
+<a href="https://www.atlantajoongang.com/143969" rel="noopener nofollow">[귀넷 건강칼럼] 당뇨병 관리는 식사량 조절부터</a><p class="muted">당뇨병 관리에서 복잡한 식단보다 1회 섭취량을 조절하는 것이 혈당 관리에 중요하다는 건강 칼럼이다.</p>      <p class="news-meta"><span class="src">애틀랜타 중앙일보</span>
+<span>9월 25일</span></p>
+    </li>
+    <li>
+<a href="https://www.atlantajoongang.com/143964" rel="noopener nofollow">[안희숙 시] 소나기</a><p class="muted">안희숙 시인이 쓴 시 &#39;소나기&#39;를 소개하는 문예 코너다.</p>      <p class="news-meta"><span class="src">애틀랜타 중앙일보</span>
+<span>9월 25일</span></p>
+    </li>
+    <li>
+<a href="https://georgiarecorder.com/2026/09/25/top-u-s-senate-republican-stumps-with-collins-in-georgia-as-seat-appears-to-slip-out-of-reach/" rel="noopener nofollow">상원 공화당 원내대표, 조지아서 콜린스 후보 지원 유세</a><p class="muted">존 튠 미 상원 공화당 원내대표가 11월 3일 중간선거에서 민주당 존 오소프 상원의원에 도전하는 마이크 콜린스 후보를 지원하기 위해 애틀랜타를 방문했다.</p>      <p class="news-meta"><span class="src">Georgia Recorder</span>
+<span>9월 25일</span></p>
+    </li>
+    <li>
+<a href="https://www.atlantamagazine.com/southbound-articles/taking-the-advice-of-tennessees-talking-barns/" rel="noopener nofollow">테네시의 &#39;말하는 헛간&#39;에서 얻은 조언</a><p class="muted">1960년대 중반 이전 오하이오의 헛간에 그려졌던 광고 그림들을 회상하는 Atlanta Magazine의 칼럼이다.</p>      <p class="news-meta"><span class="src">Atlanta Magazine</span>
+<span>9월 25일</span></p>
+    </li>
+    <li>
+<a href="https://www.atlantamagazine.com/dining-news/steak-pun-poll-submit-your-sizzling-wit-here/" rel="noopener nofollow">스테이크 말장난 투표: 최고의 재치를 뽑아주세요</a><p class="muted">Atlanta Magazine이 10월호 인쇄판 독자 응모작 중 최고의 스테이크 말장난을 뽑는 투표를 진행한다.</p>      <p class="news-meta"><span class="src">Atlanta Magazine</span>
+<span>9월 25일</span></p>
+    </li>
+    <li>
+<a href="https://georgiarecorder.com/2026/09/25/justices-sound-skeptical-of-georgia-agencys-decision-to-remove-children-from-their-home/" rel="noopener nofollow">조지아 대법원, 아동 분리 결정에 회의적 반응</a><p class="muted">조지아 대법원 대법관들이 한 가정에서 아이들을 분리 조치한 조지아주 아동보호기관의 결정에 회의적인 태도를 보였다.</p>      <p class="news-meta"><span class="src">Georgia Recorder</span>
+<span>9월 25일</span></p>
+    </li>
+    <li>
+<a href="https://atlantak.com/%eb%91%98%eb%a3%a8%ec%8a%a4-%eb%88%84%ea%b0%80%ec%8a%a4%ed%82%a8-10%ec%9b%94-6%ec%9d%bc-%ec%9a%b8%ec%8e%84%eb%9d%bc%ed%94%bc-%ed%94%84%eb%9d%bc%ec%9e%84-vip-%ec%9d%b4%eb%b2%a4%ed%8a%b8/" rel="noopener nofollow">둘루스 누가스킨(NUGA Skin Clinic), 10월 6일 &#39;울쎄라피 프라임 VIP 이벤트&#39;</a><p class="muted">둘루스 누가스킨이 멀츠 에스테틱스와 공동으로 10월 6일 울쎄라피 프라임 VIP 이벤트를 열어 라이브 시연과 당일 특별가, 제오민·래디어스·벨로테로 등 시술 혜택을 제공한다.</p>      <p class="news-meta"><span class="src">코리아타임즈 애틀랜타</span>
+<span>9월 25일</span></p>
+    </li>
+    <li>
+<a href="https://atlantak.com/%ed%95%9c%ea%b5%ad-%ed%94%84%eb%a6%ac%eb%af%b8%ec%97%84-%ec%8b%9d%ed%92%88-%ec%a7%81%ea%b1%b0%eb%9e%98%eb%aa%b0-k-mannam-10%ec%9b%94-1%ec%9d%bc-%ec%98%a4%ed%94%88/" rel="noopener nofollow">한국 프리미엄 식품 직거래몰 &#39;K mannam&#39; 10월 1일 오픈</a><p class="muted">한국 생산자와 미국 소비자를 직접 연결하는 식품 직거래몰 &#39;K mannam&#39;이 10월 1일 문을 열며 회원가입·이메일 구독 시 총 15달러 지원금 등 오픈 기념 혜택을 제공한다.</p>      <p class="news-meta"><span class="src">코리아타임즈 애틀랜타</span>
+<span>9월 25일</span></p>
+    </li>
+    <li>
+<a href="https://atlantak.com/%ed%98%84%eb%8c%80%ec%b0%a8%ea%b7%b8%eb%a3%b9-%ed%8f%ac%eb%93%9c-%ec%a0%9c%ec%b3%a4%eb%8b%a4%ec%82%ac%ec%83%81-%ec%b2%ab-%eb%af%b8%ea%b5%ad%ed%8c%90%eb%a7%a4-3%ec%9c%84/" rel="noopener nofollow">현대차그룹, 포드 제쳤다…미국 판매 사상 첫 3위 전망</a><p class="muted">현대자동차그룹이 올해 3분기 미국에서 약 51만 1421대를 판매해 포드를 앞지르며 GM·도요타에 이어 사상 처음으로 미국 판매 3위에 오를 것으로 전망된다.</p>      <p class="news-meta"><span class="src">코리아타임즈 애틀랜타</span>
+<span>9월 25일</span></p>
+    </li>
+    <li>
+<a href="https://georgiarecorder.com/2026/09/24/repub/millions-of-dollars-of-waste-found-in-trump-administration-push-for-immigration-detention/" rel="noopener nofollow">트럼프 행정부 이민자 구금 확대 과정에서 수백만 달러 낭비 발견</a><p class="muted">연방 정부 조사관들이 국토안보부가 이민자 구금 시설을 급속히 확대하는 과정에서 2000만 달러 이상의 연방 예산을 낭비했다는 보고서를 발표했다.</p>      <p class="news-meta"><span class="src">Georgia Recorder</span>
+<span>9월 24일</span></p>
+    </li>
+    <li>
+<a href="https://georgiarecorder.com/2026/09/24/repub/federal-agencies-to-collaborate-to-strengthen-review-of-glyphosate/" rel="noopener nofollow">연방기관, 제초제 글리포세이트(glyphosate) 검토 강화 위해 협력</a><p class="muted">미국 보건복지부(HHS)가 환경보호청(EPA)의 글리포세이트 인체 위해성 평가와 관련해 다른 연방기관들과 연구 협력을 계획하고 있다.</p>      <p class="news-meta"><span class="src">Georgia Recorder</span>
+<span>9월 24일</span></p>
+    </li>
+    <li>
+<a href="https://georgiarecorder.com/2026/09/24/georgia-power-google-announce-deal-to-pay-for-nuclear-upgrades/" rel="noopener nofollow">Georgia Power와 Google, 원자력 발전소 업그레이드 비용 지원 협약 발표</a><p class="muted">Google이 조지아주 원자로 업그레이드 비용을 지원하기로 Georgia Power와 최근 합의했다.</p>      <p class="news-meta"><span class="src">Georgia Recorder</span>
+<span>9월 24일</span></p>
+    </li>
+    <li>
+<a href="https://www.atlantamagazine.com/article/art-music-and-foo-for-the-soul/" rel="noopener nofollow">예술, 음악, 그리고 마음을 위한 &#39;푸(foo)&#39;</a><p class="muted">플로리다 펜서콜라(Pensacola)의 Foo Foo Festival이 10월 29일부터 12일간 예술·음악·연극 행사로 13번째 해를 맞아 돌아온다.</p>      <p class="news-meta"><span class="src">Atlanta Magazine</span>
+<span>9월 24일</span></p>
+    </li>
+    <li>
+<a href="https://www.atlantajoongang.com/?kboard_content_redirect=1721" rel="noopener nofollow">★플로리다 탬파(Tampa) 메인 상권★ 대형 H-MART 바로 건너편 상가 임대</a><p class="muted">플로리다 탬파의 H-MART 맞은편 상가 임대를 알리는 광고 게시글이다.</p>      <p class="news-meta"><span class="src">애틀랜타 중앙일보 알림판</span>
+<span>9월 24일</span></p>
+    </li>
+    <li>
+<a href="https://www.atlantamagazine.com/news-culture-articles/dateline-nbc-premieres-its-35th-season-tomorrow-atlanta-based-correspondent-blayne-alexander-reflects-on-her-journey/" rel="noopener nofollow">Dateline NBC 시즌 35 시작, 애틀랜타 기반 기자 Blayne Alexander의 소회</a><p class="muted">NBC 시사 프로그램 Dateline이 시즌 35를 시작하며, 애틀랜타에 거주하는 기자 Blayne Alexander가 자신의 여정을 돌아본다.</p>      <p class="news-meta"><span class="src">Atlanta Magazine</span>
+<span>9월 24일</span></p>
+    </li>
+    <li>
+<a href="https://atlanta.eater.com/maps/best-downtown-atlanta-restaurants" rel="noopener nofollow">다운타운 애틀랜타(Downtown Atlanta) 맛집 추천</a><p class="muted">조지아 아쿠아리움, 인권 센터, 메르세데스-벤츠 스타디움 등이 있는 다운타운 애틀랜타 지역의 식당들을 소개하는 기사이다.</p>      <p class="news-meta"><span class="src">Eater Atlanta</span>
+<span>9월 23일</span></p>
+    </li>
+    <li>
+<a href="https://www.atlantamagazine.com/news-culture-articles/editors-journal-the-day-i-dropped-my-daughter-at-kindergarten-and-found-my-community/" rel="noopener nofollow">편집자 일기: 딸을 유치원에 데려다준 날, 공동체를 찾다</a><p class="muted">Atlanta Magazine 편집장이 자녀의 학교를 통해 애틀랜타에서 공동체를 찾은 경험을 이야기하는 칼럼이다.</p>      <p class="news-meta"><span class="src">Atlanta Magazine</span>
+<span>9월 22일</span></p>
+    </li>
+    <li>
+<a href="https://www.atlantajoongang.com/?kboard_content_redirect=1720" rel="noopener nofollow">[9월 26일] 절세·자산 관리·은퇴설계 세미나</a><p class="muted">9월 26일에 열리는 절세, 자산 관리, 은퇴설계 관련 세미나 안내.</p>      <p class="news-meta"><span class="src">애틀랜타 중앙일보 알림판</span>
+<span>9월 18일</span></p>
+    </li>
+    <li>
+<a href="https://www.atlantajoongang.com/?kboard_content_redirect=1718" rel="noopener nofollow">매매 / 판매 / 신탁</a><p class="muted">매매, 판매, 신탁 관련 광고로 구체적인 내용은 확인되지 않음.</p>      <p class="news-meta"><span class="src">애틀랜타 중앙일보 알림판</span>
+<span>9월 18일</span></p>
+    </li>
+    <li>
+<a href="https://www.atlantajoongang.com/?kboard_content_redirect=1717" rel="noopener nofollow">월 매출 17만 달러 윙 가게 매매</a><p class="muted">새로 오픈해 월 매출 17만 달러, 순수익 5만 달러 이상인 윙(치킨윙) 가게를 170만 달러에 매매한다는 광고.</p>      <p class="news-meta"><span class="src">애틀랜타 중앙일보 알림판</span>
+<span>9월 18일</span></p>
+    </li>
+    <li>
+<a href="https://www.atlantajoongang.com/?kboard_content_redirect=1716" rel="noopener nofollow">둘루스(Duluth) 지역 하우스 렌트</a><p class="muted">I-85 107번 출구 인근, H마트에서 차로 10분 거리인 둘루스 지역의 방 3개·화장실 2개 하우스를 즉시 입주 가능한 조건으로 렌트한다는 광고.</p>      <p class="news-meta"><span class="src">애틀랜타 중앙일보 알림판</span>
+<span>9월 18일</span></p>
+    </li>
+  </ul>
+</div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <p class="footer-brand">애틀랜타 정착·생활 가이드</p>
+        <p class="muted">애틀랜타 둘루스·스와니 일대에 자리 잡고, 잘 사는 데 필요한 정보와 지혜</p>
+      </div>
+      <div>
+        <p class="footer-head">분야</p>
+        <ul>
+<li><a href="/essentials/">도착 직후 필수</a></li><li><a href="/housing/">주거와 동네</a></li><li><a href="/education/">교육과 가족</a></li><li><a href="/health-tax/">의료·보험·세금</a></li><li><a href="/life/">생활과 커뮤니티</a></li><li><a href="/daily/">일상과 여가</a></li><li><a href="/business/">사업과 창업</a></li><li><a href="/wisdom/">먼저 겪은 사람의 지혜</a></li>        </ul>
+      </div>
+      <div>
+        <p class="footer-head">도구</p>
+        <ul>
+          <li><a href="/checklist/">90일 체크리스트</a></li>
+          <li><a href="/deadlines/">놓치면 안 되는 기한</a></li>
+          <li><a href="/prices/">장바구니 가격 비교</a></li>
+          <li><a href="/hmart/">H Mart 주간 세일</a></li>
+          <li><a href="/events/">이벤트 캘린더</a></li>
+          <li><a href="/news/">지역 소식</a></li>
+          <li><a href="/search/">검색</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="disclaimer">
+      이 사이트는 정착 과정을 안내하는 참고 자료입니다. <strong>이민·세무·법률 자문이 아닙니다.</strong>
+      수수료·기한·자격 요건은 자주 바뀌므로 실제 진행 전 반드시 각 문서에 링크된 공식 페이지에서 다시 확인하세요.
+    </p>
+    <p class="muted small footer-meta"><span>마지막 빌드 2026-09-26 09:55 EDT (애틀랜타 현지 시간)</span><a href="/privacy/">개인정보 처리방침</a></p>
+  </div>
+</footer>
+
+<script src="/assets/js/site.js" defer></script>
+<script>
+// 오프라인·빠른 재방문용 서비스 워커. HTML 은 항상 서버 우선이라 낡은 페이지가 뜨지 않는다 (sw.js 참고).
+if ('serviceWorker' in navigator) { window.addEventListener('load', function () { navigator.serviceWorker.register('/sw.js').catch(function () {}); }); }
+</script>
+</body>
+</html>
