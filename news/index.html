@@ -1,0 +1,353 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>애틀랜타 소식 — 애틀랜타 정착·생활 가이드</title>
+<meta name="description" content="애틀랜타 지역 뉴스와 시청·학군 공지 모음. 매일 새벽 자동으로 갱신됩니다.">
+<link rel="canonical" href="https://atlanta.metacog.co.kr/news/">
+<meta property="og:site_name" content="애틀랜타 정착·생활 가이드">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:type" content="website">
+<meta property="og:title" content="애틀랜타 소식 — 애틀랜타 정착·생활 가이드">
+<meta property="og:description" content="애틀랜타 지역 뉴스와 시청·학군 공지 모음. 매일 새벽 자동으로 갱신됩니다.">
+<meta property="og:url" content="https://atlanta.metacog.co.kr/news/">
+<meta property="og:image" content="https://atlanta.metacog.co.kr/assets/img/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="애틀랜타 정착·생활 가이드">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/assets/img/favicon.svg?v=7cae0141" type="image/svg+xml">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png?v=7cae0141">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16.png?v=7cae0141">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.png?v=7cae0141">
+<link rel="manifest" href="/assets/img/site.webmanifest">
+<meta name="theme-color" content="#b8461f">
+<link rel="preconnect" href="https://cdn.jsdelivr.net">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+<link rel="stylesheet" href="/assets/css/site.css">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-0F0ZDYP19E"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-0F0ZDYP19E', { 'allow_google_signals': false });
+</script>
+<script>
+// 첫 페인트 전에 테마를 확정해 깜빡임을 없앤다.
+(function () {
+  try {
+    var t = localStorage.getItem('theme');
+    if (t === 'dark' || t === 'light') document.documentElement.dataset.theme = t;
+  } catch (e) {}
+})();
+</script>
+</head>
+<body>
+<a class="skip" href="#main">본문으로 건너뛰기</a>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="/">
+      <img class="brand-mark" src="/assets/img/logo.svg" alt="ATL" width="34" height="34">
+      <span class="brand-text">애틀랜타 정착·생활 가이드</span>
+    </a>
+    <nav class="nav" aria-label="주요 메뉴">
+      <a href="/essentials/">필수</a>
+      <a href="/housing/">주거</a>
+      <a href="/education/">교육</a>
+      <a href="/health-tax/">의료·세금</a>
+      <a href="/life/">생활</a>
+      <a href="/daily/">여가</a>
+      <a href="/business/">사업</a>
+      <a href="/wisdom/">지혜</a>
+      <a href="/checklist/">체크리스트</a>
+      <a href="/deadlines/">기한</a>
+      <a href="/events/">이벤트</a>
+    </nav>
+    <div class="header-tools">
+      <a class="icon-btn" href="/search/" aria-label="검색">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+      </a>
+      <button class="icon-btn" id="theme-toggle" type="button" aria-label="밝은/어두운 화면 전환">
+        <svg viewBox="0 0 24 24" aria-hidden="true" class="i-sun"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M19.1 4.9l-1.4 1.4M6.3 17.7l-1.4 1.4"/></svg>
+        <svg viewBox="0 0 24 24" aria-hidden="true" class="i-moon"><path d="M20 13.5A8 8 0 0 1 10.5 4a8.5 8.5 0 1 0 9.5 9.5z"/></svg>
+      </button>
+      <button class="icon-btn menu-btn" id="menu-toggle" type="button" aria-label="메뉴" aria-expanded="false">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+      </button>
+    </div>
+  </div>
+  <nav class="mobile-nav" id="mobile-nav" hidden aria-label="모바일 메뉴">
+    <a href="/essentials/"><span>🛬</span>도착 직후 필수</a>
+    <a href="/housing/"><span>🏡</span>주거와 동네</a>
+    <a href="/education/"><span>🎒</span>교육과 가족</a>
+    <a href="/health-tax/"><span>🏥</span>의료·보험·세금</a>
+    <a href="/life/"><span>🌮</span>생활과 커뮤니티</a>
+    <a href="/daily/"><span>🎟️</span>일상과 여가</a>
+    <a href="/business/"><span>🏪</span>사업과 창업</a>
+    <a href="/wisdom/"><span>🧭</span>먼저 겪은 사람의 지혜</a>
+    <a href="/checklist/"><span>✅</span>90일 체크리스트</a>
+    <a href="/deadlines/"><span>⏳</span>놓치면 안 되는 기한</a>
+    <a href="/prices/"><span>🧾</span>장바구니 가격 비교</a>
+        <a href="/hmart/"><span>🛒</span>H Mart 주간 세일</a>
+    <a href="/events/"><span>📅</span>이벤트</a>
+    <a href="/news/"><span>📰</span>소식</a>
+    <a href="/search/"><span>🔍</span>검색</a>
+  </nav>
+</header>
+
+<main id="main">
+<div class="wrap page-head">
+  <nav class="crumbs" aria-label="위치"><a href="/">홈</a> <span>/</span> 소식</nav>
+  <h1>애틀랜타 소식</h1>
+  <p class="lede">지역 언론과 시청·학군 공지를 매일 새벽 모읍니다. 제목을 누르면 원문으로 갑니다.</p>
+<p class="muted small">마지막 수집 2026-11-14 10:48 EST</p>  <p class="archive-months"><strong>지난 소식</strong>
+<a href="/news/2026/11/">2026년 11월</a><a href="/news/2026/10/">2026년 10월</a><a href="/news/2026/09/">2026년 9월</a><a href="/news/2026/08/">2026년 8월</a>  </p>
+</div>
+<div class="wrap section">
+  <ul class="news-list">
+    <li>
+<a href="https://www.11alive.com/article/news/local/flight-canceled-heres-how-to-get-a-refund/85-7fd587b5-63de-4a45-8a01-ec949d0eccea" rel="noopener nofollow">항공편이 취소됐다면? 환불받는 방법</a><p class="muted">전국 항공기 운항 중단(ground stop)의 영향을 받은 승객이 환불받는 방법을 안내하는 기사다.</p>      <p class="news-meta"><span class="src">11Alive (WXIA) 지역 뉴스</span>
+<span>11월 14일</span></p>
+    </li>
+    <li>
+<a href="https://atlantak.com/%eb%b6%81%ea%b7%b9-%ed%95%9c%ed%8c%8c-%ec%a1%b0%ec%a7%80%ec%95%84-%eb%8d%ae%ec%b9%9c%eb%8b%a4%ec%9d%b4%eb%b2%88-%ec%a3%bc%eb%a7%90-%ec%b2%ab-%ec%84%9c%eb%a6%ac%c2%b7%eb%8f%99%ea%b2%b0/" rel="noopener nofollow">북극 한파 조지아 덮친다…이번 주말 첫 서리·동결</a><p class="muted">북극의 찬 공기가 내려오며 메트로 애틀랜타 기온이 30도대 초반(°F)까지 떨어지고 이번 주말 첫 서리와 동결이 예상되어, 반려동물·수도관·식물 보호가 필요하다는 소식이다.</p>      <p class="news-meta"><span class="src">코리아타임즈 애틀랜타</span>
+<span>11월 14일</span></p>
+    </li>
+    <li>
+<a href="https://www.11alive.com/article/weather/metro-atlanta-counties-open-warming-centers-freezing-temperatures/85-c3cbecae-2a95-4877-952a-ab7f3ce54bc8" rel="noopener nofollow">기온 떨어지자 메트로 애틀랜타 카운티들, 보온 쉼터 개방</a><p class="muted">지역 지자체들이 영하의 날씨 속에서 주민 안전을 위해 야간 쉼터와 이동 노선을 가동하고 있다.</p>      <p class="news-meta"><span class="src">11Alive (WXIA) 지역 뉴스</span>
+<span>11월 13일</span></p>
+    </li>
+    <li>
+<a href="https://www.fox5atlanta.com/news/nationwide-ground-stop-atlanta-airport-hit-increasing-delays" rel="noopener nofollow">FAA 이륙 중단 해제로 영공 재개, 애틀랜타 공항 정상화는 더딜 전망</a><p class="muted">약 5시간 가까이 이어진 전국 이륙 중단이 금요일 밤 해제됐으며, 하츠필드-잭슨 애틀랜타 국제공항(Hartsfield-Jackson Atlanta International Airport)과 항공사들이 토요일까지 천천히 회복할 것으로 보인다.</p>      <p class="news-meta"><span class="src">FOX 5 Atlanta 지역 뉴스</span>
+<span>11월 13일</span></p>
+    </li>
+    <li>
+<a href="https://overseas.mofa.go.kr/us-atlanta-ko/brd/m_22310/view.do?seq=303" rel="noopener nofollow">허리케인 이사이아스(Isaias) 관련 안전공지 (10.8)</a><p class="muted">주애틀랜타 총영사관이 허리케인 이사이아스가 접근하면서 10월 11일(일)까지 플로리다·앨라배마 등 걸프 연안부터 조지아주와 애틀랜타 내륙까지 강풍, 집중호우, 폭풍해일, 돌발홍수가 예상된다고 알린 안전 공지입니다.</p>      <p class="news-meta"><span class="src">주애틀랜타 총영사관</span>
+<span>10월 8일</span></p>
+    </li>
+    <li>
+<a href="https://www.atlantajoongang.com/147133" rel="noopener nofollow">미 전역 항공편, 통신장애로 4시간 반 &#39;올스톱&#39;…후폭풍 지속</a><p class="muted">13일 오후 항공교통 관제 통신 시스템 장애로 미국 전역의 항공기 운항이 4시간 넘게 중단되어 1만5천 편 넘게 취소·지연됐다.</p>      <p class="news-meta"><span class="src">애틀랜타 중앙일보</span>
+<span>11월 14일</span></p>
+    </li>
+    <li>
+<a href="https://atlantak.com/%ed%95%ad%ea%b3%b5%eb%8c%80%eb%9e%80-%ec%a3%bc%eb%a7%90%ea%b9%8c%ec%a7%80-%ea%b0%84%eb%8b%a44%ec%8b%9c%ea%b0%8420%eb%b6%84-%ec%98%ac%ec%8a%a4%ed%86%b1-%ed%9b%84%ed%8f%ad/" rel="noopener nofollow">항공대란 주말까지 간다…4시간 20분 &#39;올스톱&#39; 후폭풍</a><p class="muted">13일 하루 4,700편이 취소되고 1만 편이 지연됐으며, 14일 운항편 700편도 이미 취소되는 등 전국 운항 중단의 여파가 주말까지 이어지고 있다.</p>      <p class="news-meta"><span class="src">코리아타임즈 애틀랜타</span>
+<span>11월 14일</span></p>
+    </li>
+    <li>
+<a href="https://atlantak.com/%eb%8c%80%ed%95%9c%ed%95%ad%ea%b3%b5-%ec%9d%b8%ec%b2%9c%eb%89%b4%ec%96%b4%ed%81%ac-%ec%a7%81%ed%95%ad-%ec%8b%a0%ec%84%a4%eb%82%b4%eb%85%84-5%ec%9b%94%eb%b6%80%ed%84%b0-%eb%a7%a4%ec%9d%bc/" rel="noopener nofollow">대한항공, 인천~뉴어크 직항 신설…내년 5월부터 매일 운항</a><p class="muted">대한항공이 내년 5월 22일부터 인천과 뉴저지주 뉴어크를 잇는 직항 노선을 매일 운항한다.</p>      <p class="news-meta"><span class="src">코리아타임즈 애틀랜타</span>
+<span>11월 14일</span></p>
+    </li>
+    <li>
+<a href="https://www.fox5atlanta.com/live-blog/news/live-cancellations-delays-grow-atlanta-airport-amid-ground-stop" rel="noopener nofollow">전국 운항 중단 후 영공 재개…하츠필드-잭슨 항공편 수백 편 지연·취소</a><p class="muted">FAA의 전국 운항 중단 여파로 금요일 하츠필드-잭슨 애틀랜타 국제공항(Hartsfield-Jackson)에서 수백 편이 지연되거나 취소됐다.</p>      <p class="news-meta"><span class="src">FOX 5 Atlanta 지역 뉴스</span>
+<span>11월 14일</span></p>
+    </li>
+    <li>
+<a href="https://atlantak.com/%ec%86%8d%eb%b3%b4-%ed%95%ad%ea%b3%b5-%ec%9a%b4%ed%95%ad%ec%a4%91%eb%8b%a8-%ed%95%b4%ec%a0%9c%ec%9d%b8%ec%b2%9c%eb%b0%9c-%ec%95%a0%ed%8b%80%eb%9e%9c%ed%83%80%ed%8e%b8%eb%8f%84-2%ec%8b%9c/" rel="noopener nofollow">[속보] 항공 운항 중단 해제…인천발 애틀랜타편도 2시간 지연</a><p class="muted">FAA 통신 장애로 7시간여 이어진 전국 출발편 운항 중단이 풀렸지만, 1만 편 넘게 지연됐고 인천발 애틀랜타편도 2시간 늦어졌다.</p>      <p class="news-meta"><span class="src">코리아타임즈 애틀랜타</span>
+<span>11월 14일</span></p>
+    </li>
+    <li>
+<a href="https://www.atlantajoongang.com/147128" rel="noopener nofollow">원스탑 커뮤니티센터 &#39;사랑의 김장 나눔&#39;</a><p class="muted">원스탑 커뮤니티센터가 13일 조지아주 노크로스 메들록 야외광장에서 김장 나눔 행사를 열어, 담근 김치 10박스를 독거노인과 싱글맘 등 취약계층에 전달했다.</p>      <p class="news-meta"><span class="src">애틀랜타 중앙일보</span>
+<span>11월 14일</span></p>
+    </li>
+    <li>
+<a href="https://georgiarecorder.com/2026/11/13/repub/states-have-6-more-months-to-implement-medicaid-work-requirement-administration-says/" rel="noopener nofollow">주정부, 메디케이드 근로 요건 시행에 6개월 추가 유예…행정부 발표</a><p class="muted">트럼프 행정부가 대부분의 메디케이드 가입자에게 근로를 요구하는 조항의 시행을 주정부가 6개월 더 미룰 수 있다고 금요일에 발표했다.</p>      <p class="news-meta"><span class="src">Georgia Recorder</span>
+<span>11월 14일</span></p>
+    </li>
+    <li>
+<a href="https://www.fox5atlanta.com/news/why-you-should-never-cancel-your-own-flight-during-airline-ground-stop" rel="noopener nofollow">항공편 운항 중단 중에는 직접 항공편을 취소하지 말아야 하는 이유</a><p class="muted">운항 중단으로 발이 묶인 미국 내 승객은 항공편이 취소되거나 크게 지연되면 법적으로 자동 현금 환불을 받을 수 있다는 내용이다.</p>      <p class="news-meta"><span class="src">FOX 5 Atlanta 지역 뉴스</span>
+<span>11월 14일</span></p>
+    </li>
+    <li>
+<a href="https://www.fox5atlanta.com/news/delta-issues-travel-waiver-nationwide-faa-ground-stop-halts-flights" rel="noopener nofollow">델타항공, FAA 운항 중단 해제 후 출발편 재개…정상화에 시간 걸릴 듯</a><p class="muted">애틀랜타에 본사를 둔 델타항공이 연방 당국의 전국 운항 중단 해제 후 금요일 밤 출발편을 재개했으며, 항공기와 승무원 배치를 되돌리는 데 시간이 걸릴 것이라고 밝혔다.</p>      <p class="news-meta"><span class="src">FOX 5 Atlanta 지역 뉴스</span>
+<span>11월 14일</span></p>
+    </li>
+    <li>
+<a href="https://georgiarecorder.com/2026/11/13/repub/faa-grounds-all-us-flights-due-to-air-traffic-control-issue/" rel="noopener nofollow">항공 관제 문제로 FAA, 미 전역 항공편 운항 중단</a><p class="muted">연방항공청(FAA)이 금요일 통신 문제로 미국 내 모든 항공편에 전국 단위 운항 중단을 내렸고, 동부시간 기준 오후 8시 15분경 영공이 다시 열렸다.</p>      <p class="news-meta"><span class="src">Georgia Recorder</span>
+<span>11월 13일</span></p>
+    </li>
+    <li>
+<a href="https://atlantak.com/%ea%b7%80%eb%84%b7-%ea%b3%a0%ea%b5%90-%ec%a1%b8%ec%97%85-%ec%8c%8d%eb%91%a5%ec%9d%b4-%ed%98%95%ec%a0%9c-%ec%b6%95%ea%b5%ac%ec%84%a0%ec%88%98-%ec%a0%84%ea%b5%ad%eb%8c%80%ed%9a%8c-%ec%95%9e%eb%91%90/" rel="noopener nofollow">귀넷 고교 졸업 쌍둥이 형제 축구선수, 전국대회 앞두고 ICE 구금</a><p class="muted">귀넷카운티 아처고교를 졸업한 19세 쌍둥이 형제가 앨라배마에서 교통단속을 받은 뒤 ICE에 구금됐으며, 가족은 망명 계류 중이고 취업허가가 2030년까지 유효하다고 밝힌 반면 ICE는 체류허가가 만료됐다고 주장한다.</p>      <p class="news-meta"><span class="src">코리아타임즈 애틀랜타</span>
+<span>11월 13일</span></p>
+    </li>
+    <li>
+<a href="https://www.11alive.com/article/news/local/van-driver-seriously-injured-head-on-crash-marietta-police-cruiser-burnt-hickory-road/85-82bb3536-4caa-4d95-9ac8-68c1e04de78d" rel="noopener nofollow">Burnt Hickory Road에서 밴과 마리에타 경찰차 정면충돌, 밴 운전자 중상</a><p class="muted">마리에타 경찰(Marietta Police) 순찰 차량이 동쪽 방향 차선을 넘어 포드 이코노라인 밴과 정면충돌했다고 조사 당국이 밝혔다.</p>      <p class="news-meta"><span class="src">11Alive (WXIA) 지역 뉴스</span>
+<span>11월 13일</span></p>
+    </li>
+    <li>
+<a href="https://www.11alive.com/article/news/local/apartment-fire-downtown-atlanta/85-6724f26c-9656-415d-aee7-eec647925e83" rel="noopener nofollow">다운타운 애틀랜타 아파트 화재 진압, 원인 조사 중</a><p class="muted">Nelson Street SW의 3층 건물 꼭대기 층에서 소방대가 짙은 연기와 불길을 만나 불을 껐고 당국이 원인을 조사하고 있다.</p>      <p class="news-meta"><span class="src">11Alive (WXIA) 지역 뉴스</span>
+<span>11월 13일</span></p>
+    </li>
+    <li>
+<a href="https://www.atlantajoongang.com/147120" rel="noopener nofollow">전국 공항서 한때 항공기 이륙 전면 중단</a><p class="muted">연방항공청(FAA)이 13일 오후 전국 공항에 이륙 중단 명령을 내렸고, 항공교통관제센터 통신 장애가 원인으로 지목되며 애틀랜타 하츠필드-잭슨 공항에서도 500여 편이 지연됐다.</p>      <p class="news-meta"><span class="src">애틀랜타 중앙일보</span>
+<span>11월 13일</span></p>
+    </li>
+    <li>
+<a href="https://www.atlantajoongang.com/147114" rel="noopener nofollow">[한인타운 100자 게시판] 정관장 할인, 쿠쿠 블랙프라이데이 외</a><p class="muted">14일 토요일 오후 4시 애틀랜타 섬기는교회(1724 Atkinson Rd NW, Lawrenceville)에서 열리는 &#39;가곡과 아리아의 밤&#39; 연주회를 비롯한 한인 사회 소식을 모은 게시판이다.</p>      <p class="news-meta"><span class="src">애틀랜타 중앙일보</span>
+<span>11월 13일</span></p>
+    </li>
+    <li>
+<a href="https://georgiarecorder.com/2026/11/13/repub/collections-are-coming-for-millions-of-student-loans-in-default/" rel="noopener nofollow">체납 학자금 대출 수백만 건, 추심 시작 예고</a><p class="muted">팬데믹 유예가 끝난 뒤 연체 중인 학자금 대출 채무자들이 이르면 내년부터 급여 압류와 세금 환급금 압류를 당할 수 있다는 소식이다.</p>      <p class="news-meta"><span class="src">Georgia Recorder</span>
+<span>11월 13일</span></p>
+    </li>
+    <li>
+<a href="https://atlanta.eater.com/maps/best-lunch-restaurants-atlanta" rel="noopener nofollow">애틀랜타 최고의 점심 맛집</a><p class="muted">Eater Atlanta가 애틀랜타에서 점심 먹기 좋은 식당들을 골라 소개하는 글이다.</p>      <p class="news-meta"><span class="src">Eater Atlanta</span>
+<span>11월 13일</span></p>
+    </li>
+    <li>
+<a href="https://www.11alive.com/article/news/local/sandy-springs-king-and-queen-towers-evacuation-threat-called-in/85-6e402e33-260e-49aa-9d91-a9359fa35058" rel="noopener nofollow">샌디 스프링스 &#39;King and Queen&#39; 건물 대피 후 위협 해소</a><p class="muted">공식 명칭 Concourse Corporate Center인 &#39;King and Queen&#39; 단지의 2번 건물에서 금요일 경찰이 위협 여부를 조사했고 위협이 해소됐다.</p>      <p class="news-meta"><span class="src">11Alive (WXIA) 지역 뉴스</span>
+<span>11월 13일</span></p>
+    </li>
+    <li>
+<a href="https://www.atlantamagazine.com/dining-news/muchacho-settles-into-a-1940s-bungalow-in-downtown-decatur/" rel="noopener nofollow">Muchacho, 다운타운 디케이터의 1940년대 방갈로에 세 번째 매장 오픈</a><p class="muted">Muchacho가 다운타운 디케이터(Decatur)의 역사적인 주택에 세 번째 매장을 열었고, 약 7,000제곱피트 마당과 어린이 놀이 공간, 새 야외 바를 갖췄다.</p>      <p class="news-meta"><span class="src">Atlanta Magazine</span>
+<span>11월 13일</span></p>
+    </li>
+    <li>
+<a href="https://georgiarecorder.com/2026/11/12/repub/states-need-more-time-to-prep-for-medicaid-work-requirements-top-dems-in-congress-say/" rel="noopener nofollow">의회 민주당 지도부 &#34;주 정부에 메디케이드 근로 요건 준비 시간 더 줘야&#34;</a><p class="muted">연방 의회 민주당 고위 의원 두 명이 트럼프 행정부에 메디케이드(Medicaid) 신규 요건 시행을 늦춰 달라고 요구했다는 소식입니다.</p>      <p class="news-meta"><span class="src">Georgia Recorder</span>
+<span>11월 12일</span></p>
+    </li>
+    <li>
+<a href="https://www.atlantamagazine.com/news-culture-articles/georgias-film-industry-is-in-free-fall-can-trilith-find-a-way-to-reinvent-itself/" rel="noopener nofollow">추락하는 조지아 영화산업, 트릴리스(Trilith)는 변신할 수 있을까?</a><p class="muted">페이엇빌(Fayetteville)의 영화 촬영 단지 트릴리스 스튜디오(Trilith Studios)가 마블이 떠나고 영화 제작이 줄어든 가운데 라이브 엔터테인먼트·교육·스포츠 미디어로 방향을 틀려 한다는 기사입니다.</p>      <p class="news-meta"><span class="src">Atlanta Magazine</span>
+<span>11월 12일</span></p>
+    </li>
+    <li>
+<a href="https://www.atlantamagazine.com/dining-news/ladybird-heads-west-the-open-air-bar-and-mess-hall-lands-in-west-midtown/" rel="noopener nofollow">레이디버드(Ladybird), 웨스트 미드타운에 2호점 오픈</a><p class="muted">비트라인의 인기 식당 겸 바 레이디버드 그로브 메스홀(Ladybird Grove Mess Hall)이 약 8,000제곱피트 야외 공간을 갖춘 두 번째 매장을 웨스트 미드타운(West Midtown)에 열었습니다.</p>      <p class="news-meta"><span class="src">Atlanta Magazine</span>
+<span>11월 12일</span></p>
+    </li>
+    <li>
+<a href="https://www.atlantajoongang.com/?kboard_content_redirect=1754" rel="noopener nofollow">하우스 2층방 렌트</a><p class="muted">하우스 2층방 렌트 둘루스 시온마켓 뒤 잠만 주무실 분(금연) $550/월(Deposit 약간) 가구 일체 완비 인터넷, 약간의 취사 가능 T.678-469-1089</p>      <p class="news-meta"><span class="src">애틀랜타 중앙일보 알림판</span>
+<span>11월 6일</span></p>
+    </li>
+    <li>
+<a href="https://www.atlantajoongang.com/?kboard_content_redirect=1753" rel="noopener nofollow">다양한 비즈니스 솔루션 / POS 시스템</a>      <p class="news-meta"><span class="src">애틀랜타 중앙일보 알림판</span>
+<span>11월 6일</span></p>
+    </li>
+    <li>
+<a href="https://www.atlantajoongang.com/?kboard_content_redirect=1752" rel="noopener nofollow">[ 무료 교육 강연 ] 은퇴를 위한 필수 가이드</a>      <p class="news-meta"><span class="src">애틀랜타 중앙일보 알림판</span>
+<span>11월 6일</span></p>
+    </li>
+    <li>
+<a href="https://dds.georgia.gov/press-releases/2026-11-05/dds-encourages-customers-perfect-their-digital-drivers-license-submission" rel="noopener nofollow">DDS Encourages Customers to Perfect Their Digital Driver’s License Submission</a><p class="muted">The Georgia Department of Driver Services (DDS) is reminding customers that a picture-perfect photo is an important step in successfully obtaining a Georgia Digital License or ID.</p>      <p class="news-meta"><span class="src">조지아 DDS (면허) 공지</span>
+<span>11월 5일</span></p>
+    </li>
+    <li>
+<a href="https://overseas.mofa.go.kr/us-atlanta-ko/brd/m_4878/view.do?seq=1346726" rel="noopener nofollow">[중요] 11월 27일(금) 영사민원 Walk-in 및 Pick-up 업무 불가</a><p class="muted">2026년 11월 27일(금)은 영사관 건물(Peachtree Center)이 Thanksgiving Holiday를 맞아 외부인 출입을 제한함에 따라 영사민원 업무를 위한 워크인(walk-in)및 픽업(pick-up)은 불가함을 알려드립니다. * 예약자만 출입 가능 Please be advised that our office will be closed in observance of Than…</p>      <p class="news-meta"><span class="src">주애틀랜타 총영사관</span>
+<span>11월 2일</span></p>
+    </li>
+    <li>
+<a href="https://overseas.mofa.go.kr/us-atlanta-ko/brd/m_4878/view.do?seq=1346725" rel="noopener nofollow">[휴무] 11.26.(목) Thanksgiving Day</a><p class="muted">주애틀랜타총영사관은 11월 26일(목) Thanksgiving Day에 휴무합니다. 11월 27일(금)은 영사관 건물(Peachtree Center)이 Thanksgiving Holiday를 맞아 외부인 출입을 제한함에 따라 영사민원 업무를 위한 워크인(walk-in)및 픽업(pick-up)은 불가함을 알려드립니다. 총영사관 방문을 계획하시는 분들께서는 휴무 일정을 미리 확인하시어 업무에 차…</p>      <p class="news-meta"><span class="src">주애틀랜타 총영사관</span>
+<span>11월 2일</span></p>
+    </li>
+    <li>
+<a href="https://overseas.mofa.go.kr/us-atlanta-ko/brd/m_4878/view.do?seq=1346724" rel="noopener nofollow">[휴무] 11.11.(수) Veterans Day</a><p class="muted">주애틀랜타총영사관은 11월 11일(수) Veterans Day에 휴무합니다. 총영사관 방문을 계획하시는 분들께서는 휴무 일정을 미리 확인하시어 업무에 차질이 없으시길 당부드립니다. 감사합니다. Please be advised that our office will be closed in observance of Veterans Day on Wednesday, November 11, 2026. …</p>      <p class="news-meta"><span class="src">주애틀랜타 총영사관</span>
+<span>11월 2일</span></p>
+    </li>
+    <li>
+<a href="https://overseas.mofa.go.kr/us-atlanta-ko/brd/m_4878/view.do?seq=1346728" rel="noopener nofollow">2027년도 제1차 재외동포단체 지원사업 수요조사 (~11/23)</a><p class="muted">재외동포청은 ‘2027년도 제1차 재외동포단체 지원사업 수요조사’를 아래와 같이 실시하니 코리안넷「온라인 지원신청 시스템」을 통해 수요조사를 제출해 주시기 바랍니다. 1. 수요조사 개요 : 상세내용 [붙임1 2027년도 제1차 재외동포단체 지원사업 수요조사 안내] 참조 ●대상사업 : ‘27년 1~6월 간 시행되는 재외동포단체의 사업(행사) ※︎일본 지역은 재일민단 지원 수요조사 별도 시행으로…</p>      <p class="news-meta"><span class="src">주애틀랜타 총영사관</span>
+<span>11월 2일</span></p>
+    </li>
+    <li>
+<a href="https://overseas.mofa.go.kr/us-atlanta-ko/brd/m_4878/view.do?seq=1346727" rel="noopener nofollow">미국 법무부, Western Union 사기 피해자 대상 3차 보상 절차 안내</a><p class="muted">미국 법무부(U.S. Department of Justice)는 2026년 10월 7일 Western Union을 통한 사기 피해자에 대한 제3차 보상 절차(Phase 3)를 발표하였습니다. 이번 보상 절차는 과거 Western Union을 통해 사기 피해를 입은 사람들에게 피해 금액을 반환하기 위한 것으로, 기존에 보상 신청을 하지 않았던 피해자도 일정 요건을 충족하면 새롭게 신청할 수 있…</p>      <p class="news-meta"><span class="src">주애틀랜타 총영사관</span>
+<span>11월 1일</span></p>
+    </li>
+    <li>
+<a href="https://overseas.mofa.go.kr/us-atlanta-ko/brd/m_4878/view.do?seq=1346723" rel="noopener nofollow">국제운전면허증 관련 유의사항 안내(단기 방문자 기준)</a><p class="muted">우리 국민의 안전한 해외 운전과 권익을 보호하기 위하여 관할지역(조지아주, 플로리다주, 앨라배마주, 테네시주, 사우스캐롤라이나주, 노스캐롤라이나주, 푸에르토리코, 미국령 버진아일랜드) 내 국제운전면허증 이용 시 유의사항을 아래와 같이 안내하오니, 참고하여 주시기 바랍니다. 1. 대상 : 거주 목적이 아닌 단기 방문자 2. 운전 시 필수 서류 : 유효한 국제운전면허증 + 한국 운전면허증 + 여…</p>      <p class="news-meta"><span class="src">주애틀랜타 총영사관</span>
+<span>11월 1일</span></p>
+    </li>
+    <li>
+<a href="https://www.atlantajoongang.com/147139" rel="noopener nofollow">민주당, 알래스카 주지사도 탈환…한국 LNG 투자에 변수될까</a><p class="muted">중간선거에서 민주당 후보가 알래스카 주지사에 당선됐고, 이것이 한국의 알래스카 LNG 투자에 미칠 영향이 주목된다는 소식이다.</p>      <p class="news-meta"><span class="src">애틀랜타 중앙일보</span>
+<span>11월 14일</span></p>
+    </li>
+    <li>
+<a href="https://www.atlantajoongang.com/147136" rel="noopener nofollow">전 세계 업무 마비시킨 MS 서비스 장애, 36시간 만에 복구</a><p class="muted">마이크로소프트의 아웃룩·팀스 등에서 발생한 글로벌 장애가 36시간 만에 복구됐다.</p>      <p class="news-meta"><span class="src">애틀랜타 중앙일보</span>
+<span>11월 14일</span></p>
+    </li>
+    <li>
+<a href="https://atlantak.com/%eb%89%b4%ec%98%ac%eb%a6%ac%ec%96%b8%ec%8a%a4%ec%84%9c-%ec%9c%a0%eb%9e%8c%ec%84%a0%c2%b7%ec%9c%a0%ec%a1%b0%ec%84%a0-%ec%b6%a9%eb%8f%8c129%eb%aa%85-%ec%a0%84%ec%9b%90-%ea%b5%ac%ec%a1%b0/" rel="noopener nofollow">뉴올리언스서 유람선·유조선 충돌…129명 전원 구조</a><p class="muted">루이지애나주 뉴올리언스의 미시시피강에서 유람선과 유조선이 충돌해 유람선이 침수됐지만 탑승자 129명이 모두 구조됐다.</p>      <p class="news-meta"><span class="src">코리아타임즈 애틀랜타</span>
+<span>11월 14일</span></p>
+    </li>
+    <li>
+<a href="https://www.fox5atlanta.com/news/how-26-years-organizing-reshaped-georgia-leadership" rel="noopener nofollow">26년간의 조직 활동이 조지아 리더십을 어떻게 바꿨나</a><p class="muted">선거에서 정치적 장벽이 깨지면서 여성들이 조지아 주정부의 핵심 요직을 맡을 준비를 하고 있다는 소식이다.</p>      <p class="news-meta"><span class="src">FOX 5 Atlanta 지역 뉴스</span>
+<span>11월 14일</span></p>
+    </li>
+    <li>
+<a href="https://www.11alive.com/article/news/crime/metro-atlanta-musician-arrested-viral-slap/85-9af2e7a8-68a7-4b4d-ac68-d4c033ecef2e" rel="noopener nofollow">메트로 애틀랜타 음악가, 화제가 된 뺨 때리기 영상으로 체포…피해자 &#34;더 무거운 혐의 받아야&#34;</a><p class="muted">David &#34;Sky&#34; Whatley가 콘서트 공연 중 여성의 뺨을 때리는 영상이 퍼진 뒤 10월 21일 체포됐다.</p>      <p class="news-meta"><span class="src">11Alive (WXIA) 지역 뉴스</span>
+<span>11월 14일</span></p>
+    </li>
+    <li>
+<a href="https://www.fox5atlanta.com/news/what-happened-last-time-faa-grounded-all-departing-flights" rel="noopener nofollow">FAA가 모든 출발편을 묶었던 지난번에는 무슨 일이 있었나</a><p class="muted">금요일의 전국 항공편 중단이 장비 고장, 항공사 시스템 오류, 인력 부족, 지역 비상상황이 이어져 온 미국 항공 업계에서 일어난 일임을 짚는 글이다.</p>      <p class="news-meta"><span class="src">FOX 5 Atlanta 지역 뉴스</span>
+<span>11월 14일</span></p>
+    </li>
+    <li>
+<a href="https://www.atlantamagazine.com/southbound-articles/a-new-arkansas-boutique-hotel-underscores-the-sophistication-of-nature/" rel="noopener nofollow">아칸소의 새 부티크 호텔, 자연의 세련됨을 보여주다</a><p class="muted">아칸소주 벤턴빌(Bentonville)에 새로 문을 연 부티크 호텔 The Compton을 소개하는 여행 기사이다.</p>      <p class="news-meta"><span class="src">Atlanta Magazine</span>
+<span>11월 13일</span></p>
+    </li>
+    <li>
+<a href="https://www.atlantamagazine.com/news-culture-articles/the-man-making-the-hawks-biggest-moves-takes-his-best-ideas-to-the-beltline/" rel="noopener nofollow">호크스의 굵직한 결정을 이끄는 인물, 비트라인으로 자신의 구상을 옮기다</a><p class="muted">애틀랜타 호크스(Atlanta Hawks)의 농구 운영 사장 온시 살레(Onsi Saleh)를 소개하는 Atlanta Magazine 인물 기사입니다.</p>      <p class="news-meta"><span class="src">Atlanta Magazine</span>
+<span>11월 13일</span></p>
+    </li>
+    <li>
+<a href="https://georgiarecorder.com/2026/11/12/hugley-is-officially-nominated-as-georgia-house-speaker-as-democrats-choose-their-leaders/" rel="noopener nofollow">휴글리(Hugley), 조지아 하원의장 후보로 공식 지명…민주당 지도부 선출</a><p class="muted">조지아 하원 민주당이 20년 만에 다수당이 된 뒤 캐롤린 휴글리(Carolyn Hugley) 의원을 하원의장 후보로 공식 지명하고 지도부 진용을 발표했습니다.</p>      <p class="news-meta"><span class="src">Georgia Recorder</span>
+<span>11월 12일</span></p>
+    </li>
+    <li>
+<a href="https://georgiarecorder.com/2026/11/12/will-we-finally-expand-medicaid-in-georgia/" rel="noopener nofollow">칼럼: 조지아는 마침내 메디케이드를 확대할까?</a><p class="muted">당선인 키샤 랜스 바텀스(Keisha Lance Bottoms)의 발언을 인용해 조지아의 메디케이드 확대 전망을 다룬 Georgia Recorder 기고문입니다.</p>      <p class="news-meta"><span class="src">Georgia Recorder</span>
+<span>11월 12일</span></p>
+    </li>
+    <li>
+<a href="https://www.atlantajoongang.com/?kboard_content_redirect=1757" rel="noopener nofollow">성업 중인 세탁소 매매 (앨라배마 버밍햄)</a><p class="muted">앨라배마 버밍햄의 주거지역에 있는 세탁소를 은퇴 계획으로 설비째 매매한다는 알림판 광고입니다.</p>      <p class="news-meta"><span class="src">애틀랜타 중앙일보 알림판</span>
+<span>11월 9일</span></p>
+    </li>
+    <li>
+<a href="https://www.atlantajoongang.com/?kboard_content_redirect=1756" rel="noopener nofollow">[Shake-N-Go] 신입 및 경력직 영업사원 채용</a><p class="muted">Shake-N-Go가 신입과 경력 영업사원을 채용한다는 알림판 공고입니다.</p>      <p class="news-meta"><span class="src">애틀랜타 중앙일보 알림판</span>
+<span>11월 9일</span></p>
+    </li>
+    <li>
+<a href="https://www.atlantajoongang.com/?kboard_content_redirect=1755" rel="noopener nofollow">[메디케어/오바마케어] 무료로 도와 드립니다</a><p class="muted">메디케어(Medicare)와 오바마케어(Obamacare) 관련 도움을 무료로 제공한다는 알림판 광고입니다.</p>      <p class="news-meta"><span class="src">애틀랜타 중앙일보 알림판</span>
+<span>11월 6일</span></p>
+    </li>
+  </ul>
+</div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <p class="footer-brand">애틀랜타 정착·생활 가이드</p>
+        <p class="muted">애틀랜타 둘루스·스와니 일대에 자리 잡고, 잘 사는 데 필요한 정보와 지혜</p>
+      </div>
+      <div>
+        <p class="footer-head">분야</p>
+        <ul>
+<li><a href="/essentials/">도착 직후 필수</a></li><li><a href="/housing/">주거와 동네</a></li><li><a href="/education/">교육과 가족</a></li><li><a href="/health-tax/">의료·보험·세금</a></li><li><a href="/life/">생활과 커뮤니티</a></li><li><a href="/daily/">일상과 여가</a></li><li><a href="/business/">사업과 창업</a></li><li><a href="/wisdom/">먼저 겪은 사람의 지혜</a></li>        </ul>
+      </div>
+      <div>
+        <p class="footer-head">도구</p>
+        <ul>
+          <li><a href="/checklist/">90일 체크리스트</a></li>
+          <li><a href="/deadlines/">놓치면 안 되는 기한</a></li>
+          <li><a href="/prices/">장바구니 가격 비교</a></li>
+          <li><a href="/hmart/">H Mart 주간 세일</a></li>
+          <li><a href="/events/">이벤트 캘린더</a></li>
+          <li><a href="/news/">지역 소식</a></li>
+          <li><a href="/search/">검색</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="disclaimer">
+      이 사이트는 정착 과정을 안내하는 참고 자료입니다. <strong>이민·세무·법률 자문이 아닙니다.</strong>
+      수수료·기한·자격 요건은 자주 바뀌므로 실제 진행 전 반드시 각 문서에 링크된 공식 페이지에서 다시 확인하세요.
+    </p>
+    <p class="muted small footer-meta"><span>마지막 빌드 2026-11-14 10:52 EST (애틀랜타 현지 시간)</span><a href="/privacy/">개인정보 처리방침</a></p>
+  </div>
+</footer>
+
+<script src="/assets/js/site.js" defer></script>
+<script>
+// 오프라인·빠른 재방문용 서비스 워커. HTML 은 항상 서버 우선이라 낡은 페이지가 뜨지 않는다 (sw.js 참고).
+if ('serviceWorker' in navigator) { window.addEventListener('load', function () { navigator.serviceWorker.register('/sw.js').catch(function () {}); }); }
+</script>
+</body>
+</html>
