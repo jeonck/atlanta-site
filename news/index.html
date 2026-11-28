@@ -1,0 +1,365 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>애틀랜타 소식 — 애틀랜타 정착·생활 가이드</title>
+<meta name="description" content="애틀랜타 지역 뉴스와 시청·학군 공지 모음. 매일 새벽 자동으로 갱신됩니다.">
+<link rel="canonical" href="https://atlanta.metacog.co.kr/news/">
+<meta property="og:site_name" content="애틀랜타 정착·생활 가이드">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:type" content="website">
+<meta property="og:title" content="애틀랜타 소식 — 애틀랜타 정착·생활 가이드">
+<meta property="og:description" content="애틀랜타 지역 뉴스와 시청·학군 공지 모음. 매일 새벽 자동으로 갱신됩니다.">
+<meta property="og:url" content="https://atlanta.metacog.co.kr/news/">
+<meta property="og:image" content="https://atlanta.metacog.co.kr/assets/img/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="애틀랜타 정착·생활 가이드">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/assets/img/favicon.svg?v=7cae0141" type="image/svg+xml">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png?v=7cae0141">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16.png?v=7cae0141">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.png?v=7cae0141">
+<link rel="manifest" href="/assets/img/site.webmanifest">
+<meta name="theme-color" content="#b8461f">
+<link rel="preconnect" href="https://cdn.jsdelivr.net">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+<link rel="stylesheet" href="/assets/css/site.css">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-0F0ZDYP19E"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-0F0ZDYP19E', { 'allow_google_signals': false });
+</script>
+<script>
+// 첫 페인트 전에 테마를 확정해 깜빡임을 없앤다.
+(function () {
+  try {
+    var t = localStorage.getItem('theme');
+    if (t === 'dark' || t === 'light') document.documentElement.dataset.theme = t;
+  } catch (e) {}
+})();
+</script>
+</head>
+<body>
+<a class="skip" href="#main">본문으로 건너뛰기</a>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="/">
+      <img class="brand-mark" src="/assets/img/logo.svg" alt="ATL" width="34" height="34">
+      <span class="brand-text">애틀랜타 정착·생활 가이드</span>
+    </a>
+    <nav class="nav" aria-label="주요 메뉴">
+      <a href="/essentials/">필수</a>
+      <a href="/housing/">주거</a>
+      <a href="/education/">교육</a>
+      <a href="/health-tax/">의료·세금</a>
+      <a href="/life/">생활</a>
+      <a href="/daily/">여가</a>
+      <a href="/business/">사업</a>
+      <a href="/wisdom/">지혜</a>
+      <a href="/checklist/">체크리스트</a>
+      <a href="/deadlines/">기한</a>
+      <a href="/events/">이벤트</a>
+    </nav>
+    <div class="header-tools">
+      <a class="icon-btn" href="/search/" aria-label="검색">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+      </a>
+      <button class="icon-btn" id="theme-toggle" type="button" aria-label="밝은/어두운 화면 전환">
+        <svg viewBox="0 0 24 24" aria-hidden="true" class="i-sun"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M19.1 4.9l-1.4 1.4M6.3 17.7l-1.4 1.4"/></svg>
+        <svg viewBox="0 0 24 24" aria-hidden="true" class="i-moon"><path d="M20 13.5A8 8 0 0 1 10.5 4a8.5 8.5 0 1 0 9.5 9.5z"/></svg>
+      </button>
+      <button class="icon-btn menu-btn" id="menu-toggle" type="button" aria-label="메뉴" aria-expanded="false">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+      </button>
+    </div>
+  </div>
+  <nav class="mobile-nav" id="mobile-nav" hidden aria-label="모바일 메뉴">
+    <a href="/essentials/"><span>🛬</span>도착 직후 필수</a>
+    <a href="/housing/"><span>🏡</span>주거와 동네</a>
+    <a href="/education/"><span>🎒</span>교육과 가족</a>
+    <a href="/health-tax/"><span>🏥</span>의료·보험·세금</a>
+    <a href="/life/"><span>🌮</span>생활과 커뮤니티</a>
+    <a href="/daily/"><span>🎟️</span>일상과 여가</a>
+    <a href="/business/"><span>🏪</span>사업과 창업</a>
+    <a href="/wisdom/"><span>🧭</span>먼저 겪은 사람의 지혜</a>
+    <a href="/checklist/"><span>✅</span>90일 체크리스트</a>
+    <a href="/deadlines/"><span>⏳</span>놓치면 안 되는 기한</a>
+    <a href="/prices/"><span>🧾</span>장바구니 가격 비교</a>
+        <a href="/hmart/"><span>🛒</span>H Mart 주간 세일</a>
+    <a href="/events/"><span>📅</span>이벤트</a>
+    <a href="/news/"><span>📰</span>소식</a>
+    <a href="/search/"><span>🔍</span>검색</a>
+  </nav>
+</header>
+
+<main id="main">
+<div class="wrap page-head">
+  <nav class="crumbs" aria-label="위치"><a href="/">홈</a> <span>/</span> 소식</nav>
+  <h1>애틀랜타 소식</h1>
+  <p class="lede">지역 언론과 시청·학군 공지를 매일 새벽 모읍니다. 제목을 누르면 원문으로 갑니다.</p>
+<p class="muted small">마지막 수집 2026-11-28 12:37 EST</p>  <p class="archive-months"><strong>지난 소식</strong>
+<a href="/news/2026/11/">2026년 11월</a><a href="/news/2026/10/">2026년 10월</a><a href="/news/2026/09/">2026년 9월</a><a href="/news/2026/08/">2026년 8월</a>  </p>
+</div>
+<div class="wrap section">
+  <ul class="news-list">
+    <li>
+<a href="https://www.fox5atlanta.com/news/holiday-things-do-metro-atlanta-north-georgia-2026" rel="noopener nofollow">2026 메트로 애틀랜타·노스조지아 연말 행사 모음</a><p class="muted">메트로 애틀랜타와 노스조지아에서 열리는 조명 장식, 트리 점등식, 라이브 음악 등 연말 시즌 행사를 소개하는 목록입니다.</p>      <p class="news-meta"><span class="src">FOX 5 Atlanta 지역 뉴스</span>
+<span>11월 28일</span></p>
+    </li>
+    <li>
+<a href="https://atlantak.com/%ed%9c%b4%eb%8c%80%ed%8f%b0%eb%8f%84-%ea%b3%a0%ec%b9%98%eb%8a%94%eb%8d%b0-%ec%99%9c-%eb%87%8c%eb%8a%94-%eb%aa%bb-%ea%b3%a0%ec%b9%a0%ea%b9%8c-%ec%9d%b4%ec%a7%84%ed%98%95-%eb%b0%95%ec%82%ac/" rel="noopener nofollow">‘휴대폰도 고치는데 왜 뇌는 못 고칠까’… 이진형 박사 특강, 하루 만에 좌석 70% 찼다</a><p class="muted">스탠퍼드대 이진형 박사의 애틀랜타 한인 청소년 대상 뇌 특강이 27일(금)까지 선착순으로 접수 중이며 신청이 빠르게 차고 있습니다.</p>      <p class="news-meta"><span class="src">코리아타임즈 애틀랜타</span>
+<span>11월 26일</span></p>
+    </li>
+    <li>
+<a href="https://atlantak.com/%ec%95%84%ec%94%a8%eb%a7%88%ec%bc%93-%ed%95%9c%ec%9d%b8-%ec%8b%9d%ed%92%88%ec%a0%90-%ec%84%b8%ec%9d%bc-%ec%a0%95%eb%b3%b4-74/" rel="noopener nofollow">[아씨마켓] 한인 식품점 세일 정보</a><p class="muted">아씨마켓(Assi Market) 조지아 지점의 11월 27일부터 12월 3일까지 세일 전단 정보를 요약한 글입니다.</p>      <p class="news-meta"><span class="src">코리아타임즈 애틀랜타</span>
+<span>11월 26일</span></p>
+    </li>
+    <li>
+<a href="https://atlantak.com/%eb%a9%94%ea%b0%80%eb%a7%88%ed%8a%b8-%ed%95%9c%ec%9d%b8-%ec%8b%9d%ed%92%88%ec%a0%90-%ec%84%b8%ec%9d%bc-%ec%a0%95%eb%b3%b4-24/" rel="noopener nofollow">[메가마트] 한인 식품점 세일 정보</a><p class="muted">11월 27일부터 12월 3일까지 둘루스 메가마트(Mega Mart)의 세일 정보를 소개하는 글입니다.</p>      <p class="news-meta"><span class="src">코리아타임즈 애틀랜타</span>
+<span>11월 26일</span></p>
+    </li>
+    <li>
+<a href="https://atlantak.com/%ec%95%84%ec%94%a8%eb%a7%88%ec%bc%93-2026-%eb%94%b0%eb%9c%bb%ed%95%9c-%ea%b2%a8%ec%9a%b8-%ea%b3%a0%ea%b0%9d-%ea%b0%90%ec%82%ac-%ec%84%b8%ec%9d%bc/" rel="noopener nofollow">아씨마켓, ‘2026 따뜻한 겨울’ 고객 감사 세일</a><p class="muted">아씨마켓(Assi Market)이 11월 27일부터 12월 3일까지 겨울용품, 김장재료, 연말 선물을 특가로 판매하는 고객 감사 할인행사를 연다는 소식입니다.</p>      <p class="news-meta"><span class="src">코리아타임즈 애틀랜타</span>
+<span>11월 26일</span></p>
+    </li>
+    <li>
+<a href="https://overseas.mofa.go.kr/us-atlanta-ko/brd/m_22310/view.do?seq=310" rel="noopener nofollow">추수감사절(Thanksgiving) 연휴 교통·안전 유의 안내</a><p class="muted">추수감사절 연휴 기간 이동량이 늘어나 고속도로 순찰과 음주운전·과속·안전벨트 미착용 등 교통법규 단속이 강화되니 안전에 유의하라는 총영사관 안내입니다.</p>      <p class="news-meta"><span class="src">주애틀랜타 총영사관</span>
+<span>11월 24일</span></p>
+    </li>
+    <li>
+<a href="https://overseas.mofa.go.kr/us-atlanta-ko/brd/m_4878/view.do?seq=1346733" rel="noopener nofollow">유학생(F-1)·교환방문자(J-1) 비자 관련 DHS 개정안 효력 정지 안내</a><p class="muted">매사추세츠 연방지방법원이 2026년 11월 16일, 국토안보부(DHS)가 추진한 F-1·J-1·I 비자 체류기간 제한 규정을 위법으로 판단해 전면 무효화했다는 안내입니다.</p>      <p class="news-meta"><span class="src">주애틀랜타 총영사관</span>
+<span>11월 22일</span></p>
+    </li>
+    <li>
+<a href="https://overseas.mofa.go.kr/us-atlanta-ko/brd/m_22310/view.do?seq=308" rel="noopener nofollow">개인 간 환전 사기 주의 안내</a><p class="muted">조지아텍 게시판 등 온라인 커뮤니티에서 개인 간 환전 거래 사기가 늘고 있어 총영사관이 주의를 당부하는 안내입니다.</p>      <p class="news-meta"><span class="src">주애틀랜타 총영사관</span>
+<span>11월 16일</span></p>
+    </li>
+    <li>
+<a href="https://www.fox5atlanta.com/news/small-business-saturday-decatur-shop-features-local-makers" rel="noopener nofollow">스몰 비즈니스 새터데이: 디케이터 매장에서 만나는 지역 작가들의 작품</a><p class="muted">스몰 비즈니스 새터데이를 앞두고 디케이터(Decatur)의 Homegrown 매장이 지역 작가들이 만든 선물을 선보였습니다.</p>      <p class="news-meta"><span class="src">FOX 5 Atlanta 지역 뉴스</span>
+<span>11월 28일</span></p>
+    </li>
+    <li>
+<a href="https://www.fox5atlanta.com/news/why-police-want-your-help-after-pink-black-firearm-was-pulled-atlanta" rel="noopener nofollow">애틀랜타 Family Dollar 매니저에게 분홍·검정 총기를 겨눈 용의자, 경찰이 제보 요청</a><p class="muted">한 용의자가 Family Dollar 매니저에게 분홍색과 검정색 총기를 겨눈 사건에 대해 애틀랜타 경찰(APD)이 가중폭행 혐의로 수사 중입니다.</p>      <p class="news-meta"><span class="src">FOX 5 Atlanta 지역 뉴스</span>
+<span>11월 28일</span></p>
+    </li>
+    <li>
+<a href="https://www.11alive.com/article/news/local/decatur-mom-faces-housing-uncertainty-apartment-complex-closing/85-da4baf43-1629-4860-84a1-fb5b527792b5" rel="noopener nofollow">아파트 단지 폐쇄를 앞둔 디케이터의 다섯 아이 엄마, 주거 불안에 직면</a><p class="muted">디케이터(Decatur)의 아파트 단지가 문을 닫을 예정이어서 다섯 아이를 둔 한 어머니가 갈 곳이 없다며 어려움을 호소했습니다.</p>      <p class="news-meta"><span class="src">11Alive (WXIA) 지역 뉴스</span>
+<span>11월 28일</span></p>
+    </li>
+    <li>
+<a href="https://atlantak.com/%ec%98%81%ec%83%81-79%ec%84%b8%ec%97%90%eb%8f%84-%eb%b0%b0%eb%8b%ac%ed%95%98%eb%8a%94-%eb%85%b8%ec%9d%b8-%ec%9c%84%ed%95%b4-10%eb%a7%8c%eb%b6%88-%eb%aa%a8%ea%b8%88%ed%95%9c%ec%9d%b8/" rel="noopener nofollow">[영상] 79세에도 배달하는 노인 위해 10만불 모금…한인여성 선행에 미국인들 울컥</a><p class="muted">텍사스의 한인 여성 다이애나 서씨가 소셜연금으로 생활비가 부족해 주 7일 배달을 하는 79세 배달원을 위해 10만 달러를 모금해 감동을 주었습니다.</p>      <p class="news-meta"><span class="src">코리아타임즈 애틀랜타</span>
+<span>11월 28일</span></p>
+    </li>
+    <li>
+<a href="https://www.fox5atlanta.com/news/lenox-square-black-friday-crowds-draw-thousands-buckhead" rel="noopener nofollow">레녹스 스퀘어(Lenox Square) 블랙프라이데이, 버크헤드에 수천 명 몰려</a><p class="muted">버크헤드(Buckhead)의 레녹스 스퀘어에 블랙프라이데이 연말 할인을 찾는 수천 명의 쇼핑객이 모였습니다.</p>      <p class="news-meta"><span class="src">FOX 5 Atlanta 지역 뉴스</span>
+<span>11월 28일</span></p>
+    </li>
+    <li>
+<a href="https://www.fox5atlanta.com/news/man-shot-arm-ezra-church-drive-suspect-arrested" rel="noopener nofollow">에즈라 처치 드라이브(Ezra Church Drive)에서 남성 팔에 총상, 용의자 체포</a><p class="muted">목요일 밤 애틀랜타 Ezra Church Dr NW에서 한 남성이 팔에 총상을 입었고, 경찰이 인근에서 용의자를 체포했습니다.</p>      <p class="news-meta"><span class="src">FOX 5 Atlanta 지역 뉴스</span>
+<span>11월 28일</span></p>
+    </li>
+    <li>
+<a href="https://atlantak.com/%ec%a0%9c%eb%84%a4%ec%8b%9c%ec%8a%a4-%ec%95%a8%eb%9d%bc%eb%b0%b0%eb%a7%88-%ec%83%9d%ec%82%b0-3%eb%85%84-%eb%a7%8c%ec%97%90-%ec%a4%91%eb%8b%a8%ec%99%9c-%ed%95%9c%ea%b5%ad%ec%9c%bc%eb%a1%9c/" rel="noopener nofollow">제네시스, 앨라배마 생산 3년 만에 중단…왜 한국으로 돌아가나</a><p class="muted">현대자동차가 앨라배마 공장에서 하던 제네시스 GV70 생산을 울산으로 옮기고, 앨라배마 공장은 투싼·싼타페 등 인기 차종 생산을 늘리며, 미국 판매는 기존대로 유지된다는 소식입니다.</p>      <p class="news-meta"><span class="src">코리아타임즈 애틀랜타</span>
+<span>11월 27일</span></p>
+    </li>
+    <li>
+<a href="https://www.atlantajoongang.com/147924" rel="noopener nofollow">[한인타운 100자 게시판] 영사관 지원 인력 채용, 정관장 할인 외</a><p class="muted">애틀랜타 총영사관이 12월 중순 마이애미 외교행사의 단기 지원 인력을 채용하고(30일 마감) 정관장 할인 등 한인타운 짧은 소식을 모은 게시판입니다.</p>      <p class="news-meta"><span class="src">애틀랜타 중앙일보</span>
+<span>11월 27일</span></p>
+    </li>
+    <li>
+<a href="https://www.atlantajoongang.com/147921" rel="noopener nofollow">“사진 한 컷에 삶의 의미를 담았다” ‘아사동’ 연례 작품 전시회</a><p class="muted">아틀란타 사진 동호회 아사동이 12월 4일 오후 5~7시 오프닝을 시작으로 스와니 에벤 실버타운(1495 Satellite Blvd NW)에서 회원 20명의 작품 64점을 전시하며 가족사진·장수사진 촬영도 가능합니다.</p>      <p class="news-meta"><span class="src">애틀랜타 중앙일보</span>
+<span>11월 27일</span></p>
+    </li>
+    <li>
+<a href="https://www.atlantajoongang.com/147917" rel="noopener nofollow">“납치됐어요, 도와주세요” 상점 직원에게 쪽지 건넨 남성 극적 구조</a><p class="muted">귀넷 카운티 둘루스의 상점에서 납치된 남성이 직원에게 구조 요청 쪽지를 건네 신고가 이뤄졌고, 경찰이 남성을 구조하고 용의자 2명을 체포했습니다.</p>      <p class="news-meta"><span class="src">애틀랜타 중앙일보</span>
+<span>11월 27일</span></p>
+    </li>
+    <li>
+<a href="https://georgiarecorder.com/2026/11/27/looking-for-a-christmas-tree-heres-whats-grown-in-georgia-including-some-sustainable-options/" rel="noopener nofollow">크리스마스 트리 찾으세요? 조지아에서 재배되는 트리와 지속 가능한 선택지</a><p class="muted">조지아에서 재배되는 크리스마스 트리의 종류와 지속 가능한 선택지를 소개하는 기사입니다.</p>      <p class="news-meta"><span class="src">Georgia Recorder</span>
+<span>11월 27일</span></p>
+    </li>
+    <li>
+<a href="https://www.11alive.com/article/news/local/missing-in-georgia/rockdale-deputies-looking-for-missing-woman-with-2-young-girls/85-5522bcd9-c5dd-4072-a212-834e4b673470" rel="noopener nofollow">실종 신고된 여성과 어린 소녀 2명, 록데일 카운티 보안관실이 찾아</a><p class="muted">실종 신고된 여성과 어린 소녀 두 명이 다친 곳 없이 발견되었다는 록데일 카운티(Rockdale County) 보안관실의 발표입니다.</p>      <p class="news-meta"><span class="src">11Alive (WXIA) 지역 뉴스</span>
+<span>11월 27일</span></p>
+    </li>
+    <li>
+<a href="https://www.atlantamagazine.com/article/elizabeth-gilbert-returns-to-serenbe-to-celebrate-creativity-and-feel-atlantas-palpable-buzz-of-inspiration/" rel="noopener nofollow">엘리자베스 길버트, 창의성을 기념하러 세렌비(Serenbe)에 돌아오다</a><p class="muted">『먹고 기도하고 사랑하라』의 작가 엘리자베스 길버트가 12월 첫째 주 세렌비(Serenbe)를 세 번째로 방문하며 Atlanta magazine과 인터뷰한 내용입니다.</p>      <p class="news-meta"><span class="src">Atlanta Magazine</span>
+<span>11월 27일</span></p>
+    </li>
+    <li>
+<a href="https://www.11alive.com/article/news/community/11-people-displaced-apartment-fire-dekalb-county/85-7bf9ceca-ca3f-4d36-9157-705240ef59be" rel="noopener nofollow">추수감사절 전날 밤 디캘브 카운티 화재로 주민 11명 대피</a><p class="muted">추수감사절 전날 밤 디캘브 카운티(DeKalb County)에서 난 화재로 주민 11명이 집을 떠나게 되었고, 1명이 경상으로 병원 치료를 받았습니다.</p>      <p class="news-meta"><span class="src">11Alive (WXIA) 지역 뉴스</span>
+<span>11월 27일</span></p>
+    </li>
+    <li>
+<a href="https://dds.georgia.gov/press-releases/2026-11-25/georgia-department-driver-services-commends-board-chairman-david-connell" rel="noopener nofollow">조지아 운전면허국(DDS), 데이비드 코넬 이사회 의장의 20년 가까운 헌신에 감사 표명</a><p class="muted">조지아 운전면허국(Georgia Department of Driver Services)이 DDS 이사회에서 은퇴하는 David W. Connell 의장의 약 20년 근속에 감사를 전했다는 소식이다.</p>      <p class="news-meta"><span class="src">조지아 DDS (면허) 공지</span>
+<span>11월 25일</span></p>
+    </li>
+    <li>
+<a href="https://georgiarecorder.com/2026/11/25/georgia-food-banks-families-struggle-to-stretch-aid-this-holiday-season/" rel="noopener nofollow">조지아 푸드뱅크와 가정들, 연휴철 지원 식량 아끼느라 어려움</a><p class="muted">DeKalb 카운티의 Enough to Share 같은 푸드 팬트리와 이용 가정이 연휴철에 식량 지원을 늘리기 어려운 상황을 다룬 기사다.</p>      <p class="news-meta"><span class="src">Georgia Recorder</span>
+<span>11월 25일</span></p>
+    </li>
+    <li>
+<a href="https://overseas.mofa.go.kr/us-atlanta-ko/brd/m_4878/view.do?seq=1346734" rel="noopener nofollow">[채용] 주애틀랜타 총영사관 정부 행사(마이애미) 단기 지원인력 재공고 (~11/30)</a><p class="muted">주애틀랜타총영사관이 정부 공식 외교행사를 위한 단기 지원 인력을 모집하며, 지원 서류는 11월 30일까지 atl_admin@mofa.go.kr로 제출하는 공고다.</p>      <p class="news-meta"><span class="src">주애틀랜타 총영사관</span>
+<span>11월 24일</span></p>
+    </li>
+    <li>
+<a href="https://georgiarecorder.com/2026/11/24/georgia-immigrants-file-lawsuit-challenging-dhs-re-detention-policy/" rel="noopener nofollow">조지아 이민자들, 국토안보부의 재구금 정책에 소송 제기</a><p class="muted">ACLU가 조지아의 두 남성을 내세워, 이민세관단속국(ICE)이 석방했던 이민자를 다시 구금할 수 있게 하는 연방 정책을 중단시켜 달라는 소송을 제기했다.</p>      <p class="news-meta"><span class="src">Georgia Recorder</span>
+<span>11월 24일</span></p>
+    </li>
+    <li>
+<a href="https://dds.georgia.gov/press-releases/2026-11-24/governors-office-highway-safety-awards-highway-safety-grant-georgia" rel="noopener nofollow">조지아 주지사실 고속도로안전국, 운전면허국(DDS)에 고속도로 안전 보조금 지급</a><p class="muted">조지아 운전면허국(DDS)이 주지사실 고속도로안전국(GOHS)으로부터 $363,580.14 규모의 고속도로 안전 보조금을 받았다는 소식입니다.</p>      <p class="news-meta"><span class="src">조지아 DDS (면허) 공지</span>
+<span>11월 24일</span></p>
+    </li>
+    <li>
+<a href="https://www.atlantamagazine.com/article/long-story-books-opened-saturday-to-lines-snaked-around-the-block/" rel="noopener nofollow">인먼 파크(Inman Park)에 1908년 주택을 개조한 새 서점 Long Story Books 오픈</a><p class="muted">11월 21일 인먼 파크의 에지우드 애비뉴(Edgewood Avenue)에서 1908년에 지어진 주택을 개조한 새 서점 Long Story Books가 문을 열었다는 소식입니다.</p>      <p class="news-meta"><span class="src">Atlanta Magazine</span>
+<span>11월 24일</span></p>
+    </li>
+    <li>
+<a href="https://overseas.mofa.go.kr/us-atlanta-ko/brd/m_22310/view.do?seq=309" rel="noopener nofollow">플로리다주 집중호우 및 홍수 관련 안전 유의(11.19)</a><p class="muted">플로리다주 동부 해안의 집중호우로 침수 피해가 발생해 비상사태 선포 지역이 21개 카운티로 확대되었으며, 주말 동안 저기압이 열대성 폭풍으로 발달할 수 있어 주의가 필요하다는 안내입니다.</p>      <p class="news-meta"><span class="src">주애틀랜타 총영사관</span>
+<span>11월 19일</span></p>
+    </li>
+    <li>
+<a href="https://johnscreekga.gov/news/2026/11/city-launches-toys-for-tots-campaign/" rel="noopener nofollow">존스크릭 시, Toys for Tots 장난감 기부 캠페인 시작</a><p class="muted">존스크릭 시가 12월 16일까지 포장하지 않은 새 장난감(원래 포장 상태)을 받는 Toys for Tots 기부 캠페인을 시작했습니다.</p>      <p class="news-meta"><span class="src">존스크릭 시 소식</span>
+<span>11월 16일</span></p>
+    </li>
+    <li>
+<a href="https://www.fox5atlanta.com/news/shoppers-show-black-friday-deals-despite-uncertain-economy" rel="noopener nofollow">불확실한 경기에도 블랙프라이데이 할인 찾는 쇼핑객들</a><p class="muted">높은 생활비와 불확실한 경제 상황에도 애틀랜타의 블랙프라이데이 쇼핑객들이 매장을 가득 메우고 있습니다.</p>      <p class="news-meta"><span class="src">FOX 5 Atlanta 지역 뉴스</span>
+<span>11월 28일</span></p>
+    </li>
+    <li>
+<a href="https://www.11alive.com/article/news/local/7-year-olds-grief-support-puppy-goes-missing-months-after-losing-her-mother/85-9909c787-56bc-4ea4-bd6f-9dae6e55e3a0" rel="noopener nofollow">어머니를 잃은 7세 아이의 위로 강아지, 몇 달 만에 실종</a><p class="muted">맥도너(McDonough)의 한 가족은 어머니를 여읜 어린 딸의 슬픔을 달래주려던 생후 3개월 강아지를 누군가 데려간 것으로 보고 있습니다.</p>      <p class="news-meta"><span class="src">11Alive (WXIA) 지역 뉴스</span>
+<span>11월 27일</span></p>
+    </li>
+    <li>
+<a href="https://www.11alive.com/article/news/local/macon-man-rides-hundreds-of-miles-with-collapsed-lung-to-finish-baja-1000/93-383a5866-5d61-4fa8-a13d-f26bab82272d" rel="noopener nofollow">메이컨 남성, 뼈가 부러지고 폐가 손상된 채 수백 마일 달려 Baja 1000 완주</a><p class="muted">33세 벤 레폴츠(Ben Lefholz)는 경주 430마일 지점에서 넘어졌지만 부상을 안고 결승선까지 달렸고, 지금은 집에서 회복 중입니다.</p>      <p class="news-meta"><span class="src">11Alive (WXIA) 지역 뉴스</span>
+<span>11월 27일</span></p>
+    </li>
+    <li>
+<a href="https://www.atlantajoongang.com/147927" rel="noopener nofollow">조지아 공화당, 민주당 하원 과반 저지 막판 소송전</a><p class="muted">지난 3일 조지아 중간선거에서 근소하게 패한 공화당이 2개 선거구의 결과 인증을 중단해 달라는 소송을 내, 법원 결정에 따라 민주당의 하원 다수당 지위가 달라질 수 있습니다.</p>      <p class="news-meta"><span class="src">애틀랜타 중앙일보</span>
+<span>11월 27일</span></p>
+    </li>
+    <li>
+<a href="https://www.atlantajoongang.com/147915" rel="noopener nofollow">‘눈높이 낮춘 취업’ 미국 청년 대졸자 42.5%…코로나 후 최고</a><p class="muted">뉴욕 연방준비은행 자료에 따르면 지난 9월 미국 22~27세 청년 대졸자의 불완전고용률이 42.5%로 2020년 이후 가장 높았다고 워싱턴포스트가 보도했습니다.</p>      <p class="news-meta"><span class="src">애틀랜타 중앙일보</span>
+<span>11월 27일</span></p>
+    </li>
+    <li>
+<a href="https://www.atlantajoongang.com/147911" rel="noopener nofollow">“유럽 명소와 발칸의 정취 체험하세요” 드림투어, 동유럽·발칸 7개국 패키지</a><p class="muted">드림투어가 독일·오스트리아·체코·헝가리·크로아티아·슬로베니아·보스니아를 둘러보는 14일 일정의 동유럽·발칸 여행 패키지를 선보입니다.</p>      <p class="news-meta"><span class="src">애틀랜타 중앙일보</span>
+<span>11월 27일</span></p>
+    </li>
+    <li>
+<a href="https://www.atlantajoongang.com/?kboard_content_redirect=1769" rel="noopener nofollow">MOA Hospitality에서 함께 성장할 인재를 모십니다!</a><p class="muted">MOA Hospitality가 함께 일할 인재를 모집한다는 구인 알림입니다.</p>      <p class="news-meta"><span class="src">애틀랜타 중앙일보 알림판</span>
+<span>11월 27일</span></p>
+    </li>
+    <li>
+<a href="https://www.11alive.com/article/entertainment/tyler-perry-studios-replaces-washington-state-fire-stations-sign-after-filming-at-location/85-ea32777d-dc8e-4fcc-b4df-60f6a7b9e646" rel="noopener nofollow">타일러 페리 스튜디오, 촬영지였던 워싱턴주 소방서 간판 교체</a><p class="muted">애틀랜타에 기반을 둔 타일러 페리 스튜디오(Tyler Perry Studios)가 촬영을 했던 워싱턴주 소방서의 10년 넘게 불이 켜지지 않던 간판을 새로 교체하기로 했습니다.</p>      <p class="news-meta"><span class="src">11Alive (WXIA) 지역 뉴스</span>
+<span>11월 27일</span></p>
+    </li>
+    <li>
+<a href="https://www.atlantamagazine.com/designevents/terracotta-design-build-celebrates-its-20th-anniversary/" rel="noopener nofollow">Terracotta Design Build, 창립 20주년 기념행사 열어</a><p class="muted">인테리어 시공 업체 Terracotta Design Build가 버크헤드의 Jackson Fine Art에서 고객·업계 관계자·가족과 함께 창립 20주년을 기념했습니다.</p>      <p class="news-meta"><span class="src">Atlanta Magazine</span>
+<span>11월 27일</span></p>
+    </li>
+    <li>
+<a href="https://georgiarecorder.com/2026/11/26/2026-was-a-mixed-bag-for-georgia-pecan-farmers/" rel="noopener nofollow">2026년 조지아 피칸 농가에는 엇갈린 한 해</a><p class="muted">조지아대학교(University of Georgia) 교수 등이 말하는 올해 조지아 피칸 농사의 작황을 다룬 기사입니다.</p>      <p class="news-meta"><span class="src">Georgia Recorder</span>
+<span>11월 26일</span></p>
+    </li>
+    <li>
+<a href="https://georgiarecorder.com/2026/11/25/two-georgia-gop-house-lawmakers-are-challenging-november-losses/" rel="noopener nofollow">조지아 공화당 하원의원 2명, 민주당의 다수당 전환을 가져온 패배에 이의 제기</a><p class="muted">11월 3일 중간선거에서 패배한 조지아 공화당 하원의원 두 명이 결과에 이의를 제기하고 있으며, 민주당은 1월부터 근소한 차이로 다수당이 됩니다.</p>      <p class="news-meta"><span class="src">Georgia Recorder</span>
+<span>11월 25일</span></p>
+    </li>
+    <li>
+<a href="https://www.atlantajoongang.com/?kboard_content_redirect=1768" rel="noopener nofollow">아파트 페인트·청소·Resurfacing 인력 구함</a><p class="muted">아파트에서 페인트, 청소, Resurfacing 작업을 할 경험자를 구한다는 구인 알림이다.</p>      <p class="news-meta"><span class="src">애틀랜타 중앙일보 알림판</span>
+<span>11월 25일</span></p>
+    </li>
+    <li>
+<a href="https://www.atlantajoongang.com/?kboard_content_redirect=1767" rel="noopener nofollow">알래스카 크루즈 / 바하마 크루즈</a><p class="muted">알래스카 크루즈와 바하마 크루즈를 소개하는 알림판 광고다.</p>      <p class="news-meta"><span class="src">애틀랜타 중앙일보 알림판</span>
+<span>11월 25일</span></p>
+    </li>
+    <li>
+<a href="https://georgiarecorder.com/2026/11/24/judge-orders-fulton-county-to-turn-over-2020-election-records-to-state-election-board/" rel="noopener nofollow">법원, 풀턴 카운티에 2020년 선거 기록을 주 선거관리위원회에 넘기라고 명령</a><p class="muted">풀턴 카운티 판사가 카운티 선거관리위원회에 2020년 선거 기록 전체를 편집 없이 조지아 주 선거관리위원회(State Election Board)에 제출하라고 명령했다.</p>      <p class="news-meta"><span class="src">Georgia Recorder</span>
+<span>11월 25일</span></p>
+    </li>
+    <li>
+<a href="https://www.atlantamagazine.com/article/10-new-atlanta-stores-to-shop-this-black-friday/" rel="noopener nofollow">블랙프라이데이에 가볼 만한 애틀랜타 신규 매장 10곳</a><p class="muted">최근 메트로 애틀랜타에 새로 문을 연 매장들과 블랙프라이데이 세일 정보를 소개하는 기사다.</p>      <p class="news-meta"><span class="src">Atlanta Magazine</span>
+<span>11월 24일</span></p>
+    </li>
+    <li>
+<a href="https://www.atlantamagazine.com/dining-news/3-restaurants-in-atlanta-where-youre-encouraged-to-play-with-your-food/" rel="noopener nofollow">음식을 가지고 놀도록 권하는 애틀랜타 식당 3곳</a><p class="muted">특수 효과나 손님 참여형 연출을 더한 애틀랜타 식당 세 곳을 소개하는 기사다.</p>      <p class="news-meta"><span class="src">Atlanta Magazine</span>
+<span>11월 24일</span></p>
+    </li>
+    <li>
+<a href="https://www.atlantajoongang.com/?kboard_content_redirect=1766" rel="noopener nofollow">아시안 그로서리 가게 매매</a><p class="muted">애틀랜타 남쪽 군부대 근처에 있는 주방 장비 완비 아시안 그로서리 가게를 은퇴로 매매한다는 알림이다.</p>      <p class="news-meta"><span class="src">애틀랜타 중앙일보 알림판</span>
+<span>11월 24일</span></p>
+    </li>
+    <li>
+<a href="https://www.atlantajoongang.com/?kboard_content_redirect=1765" rel="noopener nofollow">한국행 항공권 및 전세계 항공권 최저가 보장</a><p class="muted">한국행 및 전 세계 항공권 최저가를 내세우는 광고성 알림판 게시글입니다.</p>      <p class="news-meta"><span class="src">애틀랜타 중앙일보 알림판</span>
+<span>11월 24일</span></p>
+    </li>
+    <li>
+<a href="https://www.atlantajoongang.com/?kboard_content_redirect=1764" rel="noopener nofollow">신입 및 경력직 영업사원 채용</a><p class="muted">신입 및 경력직 영업사원을 채용한다는 알림판 구인 게시글입니다.</p>      <p class="news-meta"><span class="src">애틀랜타 중앙일보 알림판</span>
+<span>11월 24일</span></p>
+    </li>
+    <li>
+<a href="https://www.atlantamagazine.com/article/tips-for-enjoying-thanksgiving-while-on-a-glp-1-according-to-two-atlanta-doctors/" rel="noopener nofollow">GLP-1 복용자를 위한 추수감사절 식사 팁, 애틀랜타 의사 2인 조언</a><p class="muted">GLP-1 복용자가 건강 목표를 지키면서 추수감사절 식사를 즐기는 방법에 대해 애틀랜타의 비만 전문의 두 명이 조언합니다.</p>      <p class="news-meta"><span class="src">Atlanta Magazine</span>
+<span>11월 24일</span></p>
+    </li>
+    <li>
+<a href="https://atlanta.eater.com/maps/best-new-cocktail-bars-atlanta" rel="noopener nofollow">지금 애틀랜타에서 가장 주목받는 칵테일 바 13곳</a><p class="muted">새로 생긴 바와 레스토랑을 중심으로 애틀랜타 칵테일 업계의 최근 흐름과 가볼 만한 13곳을 소개하는 글입니다.</p>      <p class="news-meta"><span class="src">Eater Atlanta</span>
+<span>11월 23일</span></p>
+    </li>
+    <li>
+<a href="https://overseas.mofa.go.kr/us-atlanta-ko/brd/m_4878/view.do?seq=1346732" rel="noopener nofollow">12월 마이애미 정부 행사 지원요원 모집 공고 (~11/29)</a><p class="muted">2026년 12월 미국 마이애미에서 열리는 정부 행사의 지원요원을 모집하는 타기관 공고로, 지원 마감은 11월 29일입니다.</p>      <p class="news-meta"><span class="src">주애틀랜타 총영사관</span>
+<span>11월 19일</span></p>
+    </li>
+    <li>
+<a href="https://overseas.mofa.go.kr/us-atlanta-ko/brd/m_4878/view.do?seq=1346730" rel="noopener nofollow">[채용] 주애틀랜타 총영사관 단기 지원인력 모집 (~11/25)</a><p class="muted">주애틀랜타 총영사관이 2026년 12월 중순 근무할 행정·사무 보조 단기 지원인력을 모집하는 공고로, 접수 마감일은 11월 25일이었습니다.</p>      <p class="news-meta"><span class="src">주애틀랜타 총영사관</span>
+<span>11월 16일</span></p>
+    </li>
+  </ul>
+</div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <p class="footer-brand">애틀랜타 정착·생활 가이드</p>
+        <p class="muted">애틀랜타 둘루스·스와니 일대에 자리 잡고, 잘 사는 데 필요한 정보와 지혜</p>
+      </div>
+      <div>
+        <p class="footer-head">분야</p>
+        <ul>
+<li><a href="/essentials/">도착 직후 필수</a></li><li><a href="/housing/">주거와 동네</a></li><li><a href="/education/">교육과 가족</a></li><li><a href="/health-tax/">의료·보험·세금</a></li><li><a href="/life/">생활과 커뮤니티</a></li><li><a href="/daily/">일상과 여가</a></li><li><a href="/business/">사업과 창업</a></li><li><a href="/wisdom/">먼저 겪은 사람의 지혜</a></li>        </ul>
+      </div>
+      <div>
+        <p class="footer-head">도구</p>
+        <ul>
+          <li><a href="/checklist/">90일 체크리스트</a></li>
+          <li><a href="/deadlines/">놓치면 안 되는 기한</a></li>
+          <li><a href="/prices/">장바구니 가격 비교</a></li>
+          <li><a href="/hmart/">H Mart 주간 세일</a></li>
+          <li><a href="/events/">이벤트 캘린더</a></li>
+          <li><a href="/news/">지역 소식</a></li>
+          <li><a href="/search/">검색</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="disclaimer">
+      이 사이트는 정착 과정을 안내하는 참고 자료입니다. <strong>이민·세무·법률 자문이 아닙니다.</strong>
+      수수료·기한·자격 요건은 자주 바뀌므로 실제 진행 전 반드시 각 문서에 링크된 공식 페이지에서 다시 확인하세요.
+    </p>
+    <p class="muted small footer-meta"><span>마지막 빌드 2026-11-28 12:40 EST (애틀랜타 현지 시간)</span><a href="/privacy/">개인정보 처리방침</a></p>
+  </div>
+</footer>
+
+<script src="/assets/js/site.js" defer></script>
+<script>
+// 오프라인·빠른 재방문용 서비스 워커. HTML 은 항상 서버 우선이라 낡은 페이지가 뜨지 않는다 (sw.js 참고).
+if ('serviceWorker' in navigator) { window.addEventListener('load', function () { navigator.serviceWorker.register('/sw.js').catch(function () {}); }); }
+</script>
+</body>
+</html>
